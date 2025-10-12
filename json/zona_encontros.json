@@ -1,0 +1,302 @@
+[
+  {
+    "key": 1,
+    "nome": "Correnterra",
+    "CD_da_zona": 15,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": 3, "encontro": "bandidos" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "mitflites gremlins" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "aranhas caçadoras" },
+      { "rolagem": [12, 13], "quantidade": 4, "encontro": "bandidos do Lorde Gamo" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "tilacinos crinados" },
+      { "rolagem": [16, 17], "quantidade": 5, "encontro": "kobolds" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "urso-coruja" },
+      { "rolagem": [20], "quantidade": 3, "encontro": "rufiões" }
+    ]
+  },
+  {
+    "key": 2,
+    "nome": "Zonaverde",
+    "CD_da_zona": 16,
+    "CD_do_encontro": 14,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 1" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "mitflites gremlins" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "aranhas caçadoras" },
+      { "rolagem": [12, 13], "quantidade": 4, "encontro": "bandidos do Lorde Gamo" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "tilacinos crinados" },
+      { "rolagem": [16, 17], "quantidade": 5, "encontro": "kobolds" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "urso-coruja" },
+      { "rolagem": [20], "quantidade": 3, "encontro": "rufiões" }
+    ]
+  },
+  {
+    "key": 3,
+    "nome": "Aquadente",
+    "CD_da_zona": 18,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 2" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "tilacinos comuns" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "urso-coruja" },
+      { "rolagem": [12, 13], "quantidade": 6, "encontro": "bandidos do Lorde Gamo" },
+      { "rolagem": [14, 15], "quantidade": 3, "encontro": "rufiões" },
+      { "rolagem": [16, 17], "quantidade": 3, "encontro": "wargs" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "troll" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "tremeluzente" }
+    ]
+  },
+  {
+    "key": 4,
+    "nome": "Morainos",
+    "CD_da_zona": 19,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 3" },
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "goblins fracos" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "troll" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "zés do galho" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "blodeuwedd" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "fogo-fátuo" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "wyvern" },
+      { "rolagem": [20], "quantidade": 4, "encontro": "lobos atrozes" }
+    ]
+  },
+  {
+    "key": 5,
+    "nome": "Fronteiras Nodosas",
+    "CD_da_zona": 20,
+    "CD_do_encontro": 14,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 4" },
+      { "rolagem": [6, 8], "quantidade": 1, "encontro": "hidra" },
+      { "rolagem": [9, 11], "quantidade": 3, "encontro": "zés do galho" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "trolls" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "dweomergato" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "trollcães" },
+      { "rolagem": [18, 19], "quantidade": 2, "encontro": "aranhas-ogras" },
+      { "rolagem": [20], "quantidade": 2, "encontro": "limos verdurosos" }
+    ]
+  },
+  {
+    "key": 6,
+    "nome": "Colinas Sellen",
+    "CD_da_zona": 20,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue 1d12+8 na tabela da zona 5" },
+      { "rolagem": [6, 8], "quantidade": 2, "encontro": "trolls" },
+      { "rolagem": [9, 11], "quantidade": 3, "encontro": "megaloceros" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "mantícoras" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "wyverns" },
+      { "rolagem": [16, 17], "quantidade": 6, "encontro": "cultistas" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "bulette" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "aurumvorax" }
+    ]
+  },
+  {
+    "key": 7,
+    "nome": "Dunrelva",
+    "CD_da_zona": 18,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": 6, "encontro": "centauros" },
+      { "rolagem": [6, 8], "quantidade": 3, "encontro": "aranhas-ogras" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "bulette" },
+      { "rolagem": [12, 15], "quantidade": 4, "encontro": "spriggans" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "ciclopes" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "roca" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "peluda" }
+    ]
+  },
+  {
+    "key": 8,
+    "nome": "Elevados de Nomen",
+    "CD_da_zona": 24,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 7" },
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "centauros de elite" },
+      { "rolagem": [9, 11], "quantidade": 4, "encontro": "ciclopes" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "quimeras" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "peluda" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "zumbis descomunais" },
+      { "rolagem": [18, 19], "quantidade": 4, "encontro": "wyverns" },
+      { "rolagem": [20], "quantidade": 2, "encontro": "mastodontes" }
+    ]
+  },
+  {
+    "key": 9,
+    "nome": "Rochedos de Levenies",
+    "CD_da_zona": 28,
+    "CD_do_encontro": 16,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 8" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "zumbis descomunais" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "quimeras" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "leukodaemones" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "meladaemon" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "pássaro trovão" },
+      { "rolagem": [18, 19], "quantidade": 6, "encontro": "wyverns" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "alto ciclope" }
+    ]
+  },
+  {
+    "key": 10,
+    "nome": "linguacho",
+    "CD_da_zona": 32,
+    "CD_do_encontro": 14,
+    "tabela": [
+      { "rolagem": [1, 3], "quantidade": 6, "encontro": "percevejos do brejo" },
+      { "rolagem": [4, 8], "quantidade": 2, "encontro": "boggards protetores" },
+      { "rolagem": [9, 11], "quantidade": 6, "encontro": "fogos-fátuos" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "nuckelavees" },
+      { "rolagem": [14, 15], "quantidade": 4, "encontro": "gigante dos charcos" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "dioneias gigantes" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "catoblepas" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "sapeemote" }
+    ]
+  },
+  {
+    "key": 11,
+    "nome": "Dreleve",
+    "CD_da_zona": 28,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 10" },
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "gigantes da colina" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "cauthooj" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "dioneias gigantes" },
+      { "rolagem": [14, 15], "quantidade": 4, "encontro": "aurumvoraxes" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "irlgaunt" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "viper vine" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "ankou" }
+    ]
+  },
+  {
+    "key": 12,
+    "nome": "Lordes Tigres",
+    "CD_da_zona": 28,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 11" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "aurumvoraxes" },
+      { "rolagem": [9, 11], "quantidade": 4, "encontro": "mastodontes" },
+      { "rolagem": [12, 13], "quantidade": 4, "encontro": "Lordes Tigres" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "ankou" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "athachs" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "doprillu" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "troll jotund" }
+    ]
+  },
+  {
+    "key": 13,
+    "nome": "Lumeeira",
+    "CD_da_zona": 26,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 12" },
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "mastodontes" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "ankou" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "cauthoojes" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "irlgaunts" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "wemmutes" },
+      { "rolagem": [18, 19], "quantidade": 3, "encontro": "protetores de Pitax" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "jurado-da-guerra" }
+    ]
+  },
+  {
+    "key": 14,
+    "nome": "Terras baixas de Valebano",
+    "CD_da_zona": 30,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 13" },
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "mamutes" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "troll jotund" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "irlgaunts" },
+      { "rolagem": [14, 15], "quantidade": 4, "encontro": "athachs" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "ankous" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "jurado-da-guerra" },
+      { "rolagem": [20], "quantidade": null, "encontro": "Caçada selvagem" }
+    ]
+  },
+  {
+    "key": 15,
+    "nome": "Pitax",
+    "CD_da_zona": 29,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 12], "quantidade": 4, "encontro": "protetores de Pitax" },
+      { "rolagem": [13, 16], "quantidade": 2, "encontro": "ankous" },
+      { "rolagem": [17, 19], "quantidade": null, "encontro": "Caçada selvagem" },
+      { "rolagem": [20], "quantidade": 2, "encontro": "jurados-da-guerra" }
+    ]
+  },
+  {
+    "key": 16,
+    "nome": "Terras Altas de Valebano",
+    "CD_da_zona": 35,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 14" },
+      { "rolagem": [6, 8], "quantidade": 3, "encontro": "ankous" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "wemmutes" },
+      { "rolagem": [12, 13], "quantidade": null, "encontro": "Caçada selvagem" },
+      { "rolagem": [14, 15], "quantidade": 6, "encontro": "athachs elite" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "tomador de crânios" },
+      { "rolagem": [18, 19], "quantidade": 4, "encontro": "gigantes da colina carniceiros" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Minognos-Ushad" }
+    ]
+  },
+  {
+    "key": 17,
+    "nome": "Numéria",
+    "CD_da_zona": 36,
+    "CD_do_encontro": 12,
+    "tabela": [
+      { "rolagem": [1, 3], "quantidade": null, "encontro": "Jogue na tabela da zona 16" },
+      { "rolagem": [4, 6], "quantidade": 1, "encontro": "manada de mamute" },
+      { "rolagem": [7, 9], "quantidade": 4, "encontro": "gigantes da colina carniceiros" },
+      { "rolagem": [10, 11], "quantidade": 4, "encontro": "ankous" },
+      { "rolagem": [12, 13], "quantidade": 1, "encontro": "Minognos-Ushad" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "guardiões radiantes" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "golem de adamante elite" },
+      { "rolagem": [18, 19], "quantidade": null, "encontro": "Caçada selvagem" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "guthallath elite" }
+    ]
+  },
+  {
+    "key": 18,
+    "nome": "Mil Vozes",
+    "CD_da_zona": 43,
+    "CD_do_encontro": 14,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 16" },
+      { "rolagem": [6, 8], "quantidade": 1, "encontro": "sard" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "babassura" },
+      { "rolagem": [12, 13], "quantidade": 6, "encontro": "ankous elite" },
+      { "rolagem": [14, 15], "quantidade": 3, "encontro": "impulserpes" },
+      { "rolagem": [16, 17], "quantidade": null, "encontro": "Caçada selvagem" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Emissário do Rei Lanterna" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "esporo mu" }
+    ]
+  },
+  {
+    "key": 19,
+    "nome": "Montanhas Branthlend",
+    "CD_da_zona": 41,
+    "CD_do_encontro": 16,
+    "tabela": [
+      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da Zona 18" },
+      { "rolagem": [6, 8], "quantidade": 2, "encontro": "tomadores de crânio" },
+      { "rolagem": [9, 11], "quantidade": null, "encontro": "Caçada selvagem" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "babassuras" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "linnorme do rochedo" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "Ilthuliak" },
+      { "rolagem": [18, 19], "quantidade": 4, "encontro": "impulserpes" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "lerritan de elite" }
+    ]
+  }
+]

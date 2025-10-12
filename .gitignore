@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# PyCharm
+.idea/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
