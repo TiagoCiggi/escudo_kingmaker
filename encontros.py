@@ -1,12 +1,14 @@
-from jogadas import rolar_d20, d20
+from jogadas import rolar_d20, d20, ResultadoTeste
 
 import json
 
 with open('json/zona_encontros.json', 'r', encoding='utf-8') as arquivo:
     zonas = json.load(arquivo)
 
+nomes_zonas = [zona["nome"] for zona in zonas]
+
 def jogada_encontros(cd):
-    return rolar_d20(0,cd)
+    return rolar_d20(0, cd).resultado
 
 def busca_encontro(zn, rolagem):
     for zona in zonas:
@@ -32,8 +34,9 @@ def encontro(zn):
 
 def teste(zn):
     cd = busca_cd_encontro(zn)
-    if jogada_encontros(cd):
-        resultado = encontro(zn)
+    if jogada_encontros(cd) in {ResultadoTeste.SUCESSO, ResultadoTeste.SUCESSO_DECISIVO}:
+        rolagem = d20()
+        quantidade, criatura = busca_encontro(zn, rolagem)
+        return f"Encontro: {quantidade} {criatura}"
     else:
-        resultado = "Sem encontros hoje!"
-    print(resultado)
+        return "Sem encontros hoje!"
