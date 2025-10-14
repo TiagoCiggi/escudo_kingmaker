@@ -21,7 +21,7 @@
     "CD_da_zona": 16,
     "CD_do_encontro": 14,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 1" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 1 },
       { "rolagem": [6, 8], "quantidade": 4, "encontro": "mitflites gremlins" },
       { "rolagem": [9, 11], "quantidade": 2, "encontro": "aranhas caçadoras" },
       { "rolagem": [12, 13], "quantidade": 4, "encontro": "bandidos do Lorde Gamo" },
@@ -37,7 +37,7 @@
     "CD_da_zona": 18,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 2" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 2 },
       { "rolagem": [6, 8], "quantidade": 4, "encontro": "tilacinos comuns" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "urso-coruja" },
       { "rolagem": [12, 13], "quantidade": 6, "encontro": "bandidos do Lorde Gamo" },
@@ -53,7 +53,7 @@
     "CD_da_zona": 19,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 3" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 3 },
       { "rolagem": [6, 8], "quantidade": 6, "encontro": "goblins fracos" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "troll" },
       { "rolagem": [12, 13], "quantidade": 3, "encontro": "zés do galho" },
@@ -69,7 +69,7 @@
     "CD_da_zona": 20,
     "CD_do_encontro": 14,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 4" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 4 },
       { "rolagem": [6, 8], "quantidade": 1, "encontro": "hidra" },
       { "rolagem": [9, 11], "quantidade": 3, "encontro": "zés do galho" },
       { "rolagem": [12, 13], "quantidade": 2, "encontro": "trolls" },
@@ -85,7 +85,7 @@
     "CD_da_zona": 20,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue 1d12+8 na tabela da zona 5" },
+      { "rolagem": [1, 5], "quantidade": -1, "encontro": 5 },
       { "rolagem": [6, 8], "quantidade": 2, "encontro": "trolls" },
       { "rolagem": [9, 11], "quantidade": 3, "encontro": "megaloceros" },
       { "rolagem": [12, 13], "quantidade": 2, "encontro": "mantícoras" },
@@ -116,7 +116,7 @@
     "CD_da_zona": 24,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 7" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 7 },
       { "rolagem": [6, 8], "quantidade": 6, "encontro": "centauros de elite" },
       { "rolagem": [9, 11], "quantidade": 4, "encontro": "ciclopes" },
       { "rolagem": [12, 13], "quantidade": 2, "encontro": "quimeras" },
@@ -132,7 +132,7 @@
     "CD_da_zona": 28,
     "CD_do_encontro": 16,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 8" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 8 },
       { "rolagem": [6, 8], "quantidade": 4, "encontro": "zumbis descomunais" },
       { "rolagem": [9, 11], "quantidade": 2, "encontro": "quimeras" },
       { "rolagem": [12, 13], "quantidade": 2, "encontro": "leukodaemones" },
@@ -164,7 +164,7 @@
     "CD_da_zona": 28,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 10" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 10 },
       { "rolagem": [6, 8], "quantidade": 6, "encontro": "gigantes da colina" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "cauthooj" },
       { "rolagem": [12, 13], "quantidade": 3, "encontro": "dioneias gigantes" },
@@ -180,7 +180,7 @@
     "CD_da_zona": 28,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 11" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 11 },
       { "rolagem": [6, 8], "quantidade": 4, "encontro": "aurumvoraxes" },
       { "rolagem": [9, 11], "quantidade": 4, "encontro": "mastodontes" },
       { "rolagem": [12, 13], "quantidade": 4, "encontro": "Lordes Tigres" },
@@ -196,7 +196,7 @@
     "CD_da_zona": 26,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 12" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 12 },
       { "rolagem": [6, 8], "quantidade": 6, "encontro": "mastodontes" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "ankou" },
       { "rolagem": [12, 13], "quantidade": 3, "encontro": "cauthoojes" },
@@ -212,7 +212,7 @@
     "CD_da_zona": 30,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 13" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 13 },
       { "rolagem": [6, 8], "quantidade": 6, "encontro": "mamutes" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "troll jotund" },
       { "rolagem": [12, 13], "quantidade": 3, "encontro": "irlgaunts" },
@@ -240,7 +240,7 @@
     "CD_da_zona": 35,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 14" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 14 },
       { "rolagem": [6, 8], "quantidade": 3, "encontro": "ankous" },
       { "rolagem": [9, 11], "quantidade": 2, "encontro": "wemmutes" },
       { "rolagem": [12, 13], "quantidade": null, "encontro": "Caçada selvagem" },
@@ -256,7 +256,7 @@
     "CD_da_zona": 36,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 3], "quantidade": null, "encontro": "Jogue na tabela da zona 16" },
+      { "rolagem": [1, 3], "quantidade": null, "encontro": 16 },
       { "rolagem": [4, 6], "quantidade": 1, "encontro": "manada de mamute" },
       { "rolagem": [7, 9], "quantidade": 4, "encontro": "gigantes da colina carniceiros" },
       { "rolagem": [10, 11], "quantidade": 4, "encontro": "ankous" },
@@ -273,7 +273,7 @@
     "CD_da_zona": 43,
     "CD_do_encontro": 14,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da zona 16" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 16 },
       { "rolagem": [6, 8], "quantidade": 1, "encontro": "sard" },
       { "rolagem": [9, 11], "quantidade": 1, "encontro": "babassura" },
       { "rolagem": [12, 13], "quantidade": 6, "encontro": "ankous elite" },
@@ -289,7 +289,7 @@
     "CD_da_zona": 41,
     "CD_do_encontro": 16,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": null, "encontro": "Jogue na tabela da Zona 18" },
+      { "rolagem": [1, 5], "quantidade": null, "encontro": 18 },
       { "rolagem": [6, 8], "quantidade": 2, "encontro": "tomadores de crânio" },
       { "rolagem": [9, 11], "quantidade": null, "encontro": "Caçada selvagem" },
       { "rolagem": [12, 13], "quantidade": 2, "encontro": "babassuras" },
