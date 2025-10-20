@@ -11,12 +11,14 @@ Projeto em Python para simular encontros e eventos climáticos em um mundo de fa
 
 ## 🧱 Estrutura de Arquivos
 
-- `main.py` — ponto de entrada do programa
-- `interface.py` — interação com o usuário
 - `clima.py` — lógica de clima e eventos climáticos
-- `eventos_climaticos.py` — efeitos e consequências
+- `encontros.py` — lógica de geração de encontros aleatória
+- `interface.py` — interação com o usuário
 - `jogadas.py` — registro e manipulação de jogadas
-- `paginas.py` — organização visual e navegação
+- `main.py` — ponto de entrada do programa
+- `eventos_climaticos.json` — efeitos e consequências
+- `zona_encontros.json` — zonas e encontros
+- `encontro.json` - lista com observações de encontros
 
 ## 🛠️ Instalação
 

@@ -1,0 +1,88 @@
+{
+  "Bandidos": {
+    "obs": "Estes bandidos não são afiliados ao Lorde Gamo, mas ouviram falar sobre ele e esperam roubar os PdJs e usar a riqueza deles para entrarem no bando",
+    "qtd": [3],
+    "inimigo": ["Bandido do Lorde Gamo"]
+  },
+  "Caçador": {
+    "obs": "Encontros com um caçador usam as estatísticas de um caçador clandestino (Guia do Mestre 226), mas estes caçadores são neutros e relativamente dentro da lei. Eles podem ser excelentes fontes de rumores para os PdJs ou podem avisá-los sobre perigos próximos (como a ameaça de passar para uma zona mais perigosa). Ao seu critério, alguns encontros com caçadores podem ser com caçadores clandestinos que atacam os PdJs, em vez de arriscar que alguém conte às autoridades sobre as atividades que exercem.",
+    "qtd": [1],
+    "inimigo": ["Caçador Clandestino"]
+  },
+  "Kobolds": {
+    "obs": "Um encontro com kobolds é composto por 4 kobolds combatentes liderado por 1 kobold batedor; esses kobolds não fazem parte do assentamento dos Fuligescamas, mas sabem da existência deles, e pode levar os PdJs para a caverna Fuligescama, se algum for capturado vivo",
+    "qtd": [1, 4],
+    "inimigo": ["Kobold Batedor", "Kobold Combatente"]
+  },
+  "Rufiões": {
+    "obs": "Estes bandidos independentes não estão afiliados ao Lorde Gamo; eles sabem onde o forte fica, mas preferem não se associar com ele (por medo, ou talvez por não quererem compartilhar os ganhos ilícitos). Ao seu critério, um rufião que tiver a vida poupada pode guiar os PdJs até o forte ou, se ficar prestativo, talvez até ajude o grupo a acabar com o Lorde Gamo e o bando dele",
+    "qtd": [3],
+    "inimigo": ["Bandidos do Lorde Gamo"]
+  },
+  "Bandidos do Lorde Gamo": {
+    "obs": "Bandidos do Lorde Gamo encontrados na região selvagem ainda não conquistaram o direito de ficar no forte do Lorde Gamo, mas sabem a sua localização",
+    "qtd": [4],
+    "inimigo": ["Bandidos do Lorde Gamo"]
+  },
+  "Goblins": {
+    "obs": "Um encontro com goblins nos Morainos consiste em quatro goblins incursores e dois goblins piromaníacos (todos com ajuste fraco); esses goblin são um pequeno grupo nômade e não fazem parte da aldeia de Prensaverde (área CS5), mas sabem sobre olocal e poderiam, em teoria, guiar os PdJs até lá, se forem derrotados, mas poupados",
+    "qtd": [4, 2],
+    "inimigo": ["Goblin Incursor", "Goblin Piromaníaco"]
+  },
+  "Trolls": {
+    "obs": "Estes trolls não fazem parte do exército de Hargulka, mas esperam fazer algum dia. Eles tentam capturar os PdJs vivos; se conseguirem, buscam entregá-los ao rei na esperança de comprar sua boa vontade.",
+    "qtd": [2],
+    "inimigo": ["Troll"]
+  },
+  "Cultistas": {
+    "obs": "Estes cultistas são adoradores de Lamashtu que estão indiretamente afiliados ao Culto da Floração. Se este encontro acontecer antes do início do Capítulo 5, os cultistas ainda não são membros completos do culto e sabem apenas que foram atraídos para a região por visões. Os cultistas são compostos por cinco rufiões (Guia do Mestre 211) liderados por um antipaladino (Guia do Mestre 247)",
+    "qtd": [5, 1],
+    "inimigo": ["Rufião", "Antipaladino"]
+  },
+  "Centauros": {
+    "obs": "Estes centauros desconfiam de qualquer invasão em Dunrelva, mas não iniciam ataques — em vez disso, eles observam os PdJs a alguns metros de distância e os deixam tomar a iniciativa. Se encontrarem violência, eles atacam imediatamente, fugindo assim que metade deles for morta. Caso contrário, os PdJ podem conseguir conversar com eles. Eles são membros do clã de centauros Nomen — mais detalhes sobre eles podem ser encontrados no Capítulo 6.",
+    "qtd": [6],
+    "inimigo": ["Centauro"]
+  },
+  "Spriggans": {
+    "obs": "Um grupo de quatro spriggans valentões liderados por um spriggan senhor da guerra constituem este encontro. Eles não fazem parte do grupo que os PdJs encontrarão em Varnópolis após os cidadãos do assentamento desaparecerem.",
+    "qtd": [1, 4],
+    "inimigo": ["Spriggan Senhor da Guerra", "Spriggan Valentão"]
+  },
+  "Centauros de Elite": {
+    "obs": "Estes centauros desconfiam de qualquer invasão em Dunrelva, mas não iniciam ataques — em vez disso, eles observam os PdJs a alguns metros de distância e os deixam tomar a iniciativa. Se encontrarem violência, eles atacam imediatamente, fugindo assim que metade deles for morta. Caso contrário, os PdJ podem conseguir conversar com eles. Eles são membros do clã de centauros Nomen — mais detalhes sobre eles podem ser encontrados no Capítulo 6.",
+    "qtd": [6],
+    "inimigo": ["Centauros de Elite"]
+  },
+  "Zumbis Descomunais": {
+    "obs": "Estes ciclopes mortos-vivos ficaram cada vez mais comuns nos Elevados de Nomen agora que o lich Vordakai está novamente ativo. Os pedaços de carne que eles usam são frequentemente arrancados dos corpos de centauros derrotados",
+    "qtd": [4],
+    "inimigo": ["Zumbis Descomunal"]
+  },
+  "Leukodaemones": {
+    "obs": "Os daemones encontrados nos Rochedos de Levenies são criaturas que foram atraídas para este plano por Vordakai e liberadas para fazer suas maldades como acharem melhor. Ao seu critério, um daemon capturado que for forçado a falar com os PdJs poderia levá-los para o local da Tumba de Vordakai — ou poderia facilmente levá-los a um lugar completamente diferente antes de abandoná-los na floresta ou se virar contra eles e atacá-los novamente",
+    "qtd": [2],
+    "inimigo": ["Leukodaemon"]
+  },
+  "Meladaemon": {
+  "obs": "Os daemones encontrados nos Rochedos de Levenies são criaturas que foram atraídas para este plano por Vordakai e liberadas para fazer suas maldades como acharem melhor. Ao seu critério, um daemon capturado que for forçado a falar com os PdJs poderia levá-los para o local da Tumba de Vordakai — ou poderia facilmente levá-los a um lugar completamente diferente antes de abandoná-los na floresta ou se virar contra eles e atacá-los novamente",
+  "qtd": [1],
+  "inimigo": ["Meladaemon"]
+  },
+  "Boggard Protetor": {
+    "obs": "Estes boggards são protetores adicionais além daqueles já encontrados na aldeia de M’botuu (p. 154); eles tentam capturar os PdJs vivos para levá-los para a aldeia, mas, se um dos boggards morrer, os outros tentam escapar, levando os PdJs na direção contrária à de M’botuu e torcendo para encontrarem um esconderijo enquanto isso.",
+    "qtd": [6],
+    "inimigo": ["Boggard Protetor"]
+  },
+  "Gigante dos Charcos": {
+    "obs": "Não há assentamentos de gigantes dos charcos no Atoleiro do Linguancho, mas há pequenos grupos itinerantes vivendo vidas nômades na região; eles não gostam de boggards. Se os PdJs conseguirem provar que são superiores aos gigantes derrotando três deles em combate, o último implora por misericórdia e, ao seu critério, poderia agir como um guia no pântano — ou buscar vingança levando os PdJs para um encontro perigoso.",
+    "qtd": [4],
+    "inimigo": ["Gigante dos Charcos"]
+  },
+  "Percevejo do Brejo": {
+    "obs": " Todos os percevejos do brejo que os PdJs encontrarem são do assentamento de Tok-Nikrat (área LG12); eles tentam se aproximar pacificamente dos PdJs, mas fogem se forem atacados. Ao seu critério, se estes percevejos do brejo ficarem prestativos, eles podem guiar os PdJs para um local no pântano (a atitude inicial é indiferente).",
+    "qtd": [6],
+    "inimigo": ["Percevejo do Brejo"]
+  }
+
+}

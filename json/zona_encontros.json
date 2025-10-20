@@ -5,14 +5,14 @@
     "CD_da_zona": 15,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": 3, "encontro": "bandidos" },
-      { "rolagem": [6, 8], "quantidade": 4, "encontro": "mitflites gremlins" },
-      { "rolagem": [9, 11], "quantidade": 2, "encontro": "aranhas caçadoras" },
-      { "rolagem": [12, 13], "quantidade": 4, "encontro": "bandidos do Lorde Gamo" },
-      { "rolagem": [14, 15], "quantidade": 2, "encontro": "tilacinos crinados" },
-      { "rolagem": [16, 17], "quantidade": 5, "encontro": "kobolds" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "urso-coruja" },
-      { "rolagem": [20], "quantidade": 3, "encontro": "rufiões" }
+      { "rolagem": [1, 5], "quantidade": 3, "encontro": "Bandidos" },
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "Mitflit" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "Caçador" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "Alce" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "Lobo" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "Javali" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Tilacinos" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Urso Cinzento de Elite" }
     ]
   },
   {
@@ -22,13 +22,13 @@
     "CD_do_encontro": 14,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 1 },
-      { "rolagem": [6, 8], "quantidade": 4, "encontro": "mitflites gremlins" },
-      { "rolagem": [9, 11], "quantidade": 2, "encontro": "aranhas caçadoras" },
-      { "rolagem": [12, 13], "quantidade": 4, "encontro": "bandidos do Lorde Gamo" },
-      { "rolagem": [14, 15], "quantidade": 2, "encontro": "tilacinos crinados" },
-      { "rolagem": [16, 17], "quantidade": 5, "encontro": "kobolds" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "urso-coruja" },
-      { "rolagem": [20], "quantidade": 3, "encontro": "rufiões" }
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "Mitflit" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "Aranha Caçadora" },
+      { "rolagem": [12, 13], "quantidade": 4, "encontro": "Bandidos do Lorde Gamo" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "Tilacino Crinado" },
+      { "rolagem": [16, 17], "quantidade": 5, "encontro": "Kobold" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Urso-Coruja" },
+      { "rolagem": [20], "quantidade": 3, "encontro": "Rufiões" }
     ]
   },
   {
@@ -38,13 +38,13 @@
     "CD_do_encontro": 12,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 2 },
-      { "rolagem": [6, 8], "quantidade": 4, "encontro": "tilacinos comuns" },
-      { "rolagem": [9, 11], "quantidade": 1, "encontro": "urso-coruja" },
-      { "rolagem": [12, 13], "quantidade": 6, "encontro": "bandidos do Lorde Gamo" },
-      { "rolagem": [14, 15], "quantidade": 3, "encontro": "rufiões" },
-      { "rolagem": [16, 17], "quantidade": 3, "encontro": "wargs" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "troll" },
-      { "rolagem": [20], "quantidade": 1, "encontro": "tremeluzente" }
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "Tilacino" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "Urso-Coruja" },
+      { "rolagem": [12, 13], "quantidade": 6, "encontro": "Bandidos do Lorde Gamo" },
+      { "rolagem": [14, 15], "quantidade": 3, "encontro": "Rufiões" },
+      { "rolagem": [16, 17], "quantidade": 3, "encontro": "Warg" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Troll" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Tremeluzente" }
     ]
   },
   {
@@ -54,13 +54,13 @@
     "CD_do_encontro": 12,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 3 },
-      { "rolagem": [6, 8], "quantidade": 6, "encontro": "goblins fracos" },
-      { "rolagem": [9, 11], "quantidade": 1, "encontro": "troll" },
-      { "rolagem": [12, 13], "quantidade": 3, "encontro": "zés do galho" },
-      { "rolagem": [14, 15], "quantidade": 1, "encontro": "blodeuwedd" },
-      { "rolagem": [16, 17], "quantidade": 1, "encontro": "fogo-fátuo" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "wyvern" },
-      { "rolagem": [20], "quantidade": 4, "encontro": "lobos atrozes" }
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "Goblins" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "Troll" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "Zé do Galho" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "Blodeuwedd" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "Fogo-Fátuo" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Wyvern" },
+      { "rolagem": [20], "quantidade": 4, "encontro": "Lobo Atroz" }
     ]
   },
   {
@@ -70,13 +70,13 @@
     "CD_do_encontro": 14,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 4 },
-      { "rolagem": [6, 8], "quantidade": 1, "encontro": "hidra" },
-      { "rolagem": [9, 11], "quantidade": 3, "encontro": "zés do galho" },
-      { "rolagem": [12, 13], "quantidade": 2, "encontro": "trolls" },
-      { "rolagem": [14, 15], "quantidade": 1, "encontro": "dweomergato" },
-      { "rolagem": [16, 17], "quantidade": 4, "encontro": "trollcães" },
-      { "rolagem": [18, 19], "quantidade": 2, "encontro": "aranhas-ogras" },
-      { "rolagem": [20], "quantidade": 2, "encontro": "limos verdurosos" }
+      { "rolagem": [6, 8], "quantidade": 1, "encontro": "Hidra" },
+      { "rolagem": [9, 11], "quantidade": 3, "encontro": "Zé do Galho" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "Trolls" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "Dweomergato" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "Trollcão" },
+      { "rolagem": [18, 19], "quantidade": 2, "encontro": "Aranha-Ogra" },
+      { "rolagem": [20], "quantidade": 2, "encontro": "Limo Verduroso" }
     ]
   },
   {
@@ -86,13 +86,13 @@
     "CD_do_encontro": 12,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": -1, "encontro": 5 },
-      { "rolagem": [6, 8], "quantidade": 2, "encontro": "trolls" },
-      { "rolagem": [9, 11], "quantidade": 3, "encontro": "megaloceros" },
-      { "rolagem": [12, 13], "quantidade": 2, "encontro": "mantícoras" },
-      { "rolagem": [14, 15], "quantidade": 2, "encontro": "wyverns" },
-      { "rolagem": [16, 17], "quantidade": 6, "encontro": "cultistas" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "bulette" },
-      { "rolagem": [20], "quantidade": 1, "encontro": "aurumvorax" }
+      { "rolagem": [6, 8], "quantidade": 2, "encontro": "Troll" },
+      { "rolagem": [9, 11], "quantidade": 3, "encontro": "Megaloceros" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "Mantícora" },
+      { "rolagem": [14, 15], "quantidade": 2, "encontro": "Wyvern" },
+      { "rolagem": [16, 17], "quantidade": 6, "encontro": "Cultistas" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Bulette" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Aurumvorax" }
     ]
   },
   {
@@ -101,13 +101,13 @@
     "CD_da_zona": 18,
     "CD_do_encontro": 12,
     "tabela": [
-      { "rolagem": [1, 5], "quantidade": 6, "encontro": "centauros" },
-      { "rolagem": [6, 8], "quantidade": 3, "encontro": "aranhas-ogras" },
-      { "rolagem": [9, 11], "quantidade": 1, "encontro": "bulette" },
-      { "rolagem": [12, 15], "quantidade": 4, "encontro": "spriggans" },
-      { "rolagem": [16, 17], "quantidade": 4, "encontro": "ciclopes" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "roca" },
-      { "rolagem": [20], "quantidade": 1, "encontro": "peluda" }
+      { "rolagem": [1, 5], "quantidade": 6, "encontro": "Centauros" },
+      { "rolagem": [6, 8], "quantidade": 3, "encontro": "Aranha-Ogra" },
+      { "rolagem": [9, 11], "quantidade": 1, "encontro": "Bulette" },
+      { "rolagem": [12, 15], "quantidade": 4, "encontro": "Spriggans" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "Ciclope" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Roca" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Peluda" }
     ]
   },
   {
@@ -117,13 +117,13 @@
     "CD_do_encontro": 12,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 7 },
-      { "rolagem": [6, 8], "quantidade": 6, "encontro": "centauros de elite" },
-      { "rolagem": [9, 11], "quantidade": 4, "encontro": "ciclopes" },
-      { "rolagem": [12, 13], "quantidade": 2, "encontro": "quimeras" },
-      { "rolagem": [14, 15], "quantidade": 1, "encontro": "peluda" },
-      { "rolagem": [16, 17], "quantidade": 4, "encontro": "zumbis descomunais" },
-      { "rolagem": [18, 19], "quantidade": 4, "encontro": "wyverns" },
-      { "rolagem": [20], "quantidade": 2, "encontro": "mastodontes" }
+      { "rolagem": [6, 8], "quantidade": 6, "encontro": "Centauros de Elite" },
+      { "rolagem": [9, 11], "quantidade": 4, "encontro": "Ciclope" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "Quimera" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "Peluda" },
+      { "rolagem": [16, 17], "quantidade": 4, "encontro": "Zumbis Descomunais" },
+      { "rolagem": [18, 19], "quantidade": 4, "encontro": "Wyvern" },
+      { "rolagem": [20], "quantidade": 2, "encontro": "Mastodonte" }
     ]
   },
   {
@@ -133,13 +133,13 @@
     "CD_do_encontro": 16,
     "tabela": [
       { "rolagem": [1, 5], "quantidade": null, "encontro": 8 },
-      { "rolagem": [6, 8], "quantidade": 4, "encontro": "zumbis descomunais" },
-      { "rolagem": [9, 11], "quantidade": 2, "encontro": "quimeras" },
-      { "rolagem": [12, 13], "quantidade": 2, "encontro": "leukodaemones" },
-      { "rolagem": [14, 15], "quantidade": 1, "encontro": "meladaemon" },
-      { "rolagem": [16, 17], "quantidade": 1, "encontro": "pássaro trovão" },
-      { "rolagem": [18, 19], "quantidade": 6, "encontro": "wyverns" },
-      { "rolagem": [20], "quantidade": 1, "encontro": "alto ciclope" }
+      { "rolagem": [6, 8], "quantidade": 4, "encontro": "Zumbis Descomunais" },
+      { "rolagem": [9, 11], "quantidade": 2, "encontro": "Quimera" },
+      { "rolagem": [12, 13], "quantidade": 2, "encontro": "Leukodaemones" },
+      { "rolagem": [14, 15], "quantidade": 1, "encontro": "Meladaemon" },
+      { "rolagem": [16, 17], "quantidade": 1, "encontro": "Pássaro Trovão" },
+      { "rolagem": [18, 19], "quantidade": 6, "encontro": "Wyvern" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Alto Ciclope" }
     ]
   },
   {
@@ -148,14 +148,14 @@
     "CD_da_zona": 32,
     "CD_do_encontro": 14,
     "tabela": [
-      { "rolagem": [1, 3], "quantidade": 6, "encontro": "percevejos do brejo" },
-      { "rolagem": [4, 8], "quantidade": 2, "encontro": "boggards protetores" },
-      { "rolagem": [9, 11], "quantidade": 6, "encontro": "fogos-fátuos" },
-      { "rolagem": [12, 13], "quantidade": 3, "encontro": "nuckelavees" },
-      { "rolagem": [14, 15], "quantidade": 4, "encontro": "gigante dos charcos" },
-      { "rolagem": [16, 17], "quantidade": 2, "encontro": "dioneias gigantes" },
-      { "rolagem": [18, 19], "quantidade": 1, "encontro": "catoblepas" },
-      { "rolagem": [20], "quantidade": 1, "encontro": "sapeemote" }
+      { "rolagem": [1, 3], "quantidade": 6, "encontro": "Percevejo do Brejo" },
+      { "rolagem": [4, 8], "quantidade": 2, "encontro": "Boggard Protetor" },
+      { "rolagem": [9, 11], "quantidade": 6, "encontro": "Fogos-Fátuo" },
+      { "rolagem": [12, 13], "quantidade": 3, "encontro": "Nuckelavee" },
+      { "rolagem": [14, 15], "quantidade": 4, "encontro": "Gigante dos Charcos" },
+      { "rolagem": [16, 17], "quantidade": 2, "encontro": "Dioneia Gigante" },
+      { "rolagem": [18, 19], "quantidade": 1, "encontro": "Catoblepas" },
+      { "rolagem": [20], "quantidade": 1, "encontro": "Sapeemote" }
     ]
   },
   {

@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from clima import Mes, calcular_clima
 from encontros import nomes_zonas, teste
+from bestiario import escolhe_monstro, formatar_monstro
 
 def iniciar_interface():
     def simular_clima():
@@ -31,6 +32,17 @@ def iniciar_interface():
             texto_resultado.config(state='normal')
             texto_resultado.delete("1.0", tk.END)
             texto_resultado.insert(tk.END, f"🎲 Encontro na zona {zona_nome}:\n{resultado_encontro}")
+
+            if "Encontro:" in resultado_encontro:
+                partes = resultado_encontro.split(" ", 2)  # ["Encontro:", "3", "Mitflit"]
+                nome_criatura = partes[2]
+
+                monstro = escolhe_monstro(nome_criatura)
+                if monstro:
+                    texto_resultado.insert(tk.END, f"📘 Detalhes do monstro:\n{formatar_monstro(monstro)}")
+                else:
+                    texto_resultado.insert(tk.END, f"⚠️ Monstro '{nome_criatura}' não encontrado no bestiário.\n")
+
             texto_resultado.config(state='disabled')
         except Exception as e:
             texto_resultado.config(state='normal')
