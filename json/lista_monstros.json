@@ -8933,5 +8933,6619 @@
     "Visão 360° que previne flanqueamento",
     "PV muito altos (285) e salvamentos robustos para nível 13"
   ]
+},
+  {
+  "nome": "Gigante da Colina",
+  "nivel": 7,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "CM",
+    "tamanho": "Grande",
+    "outros_tracos": ["gigante", "humanoide", "terra"]
+  },
+  "percepcao": {
+    "modificador": 13,
+    "sentidos_especiais": ["visão na penumbra"]
+  },
+  "idiomas": ["Comum", "Jotun"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 19
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 11
+    }
+  ],
+  "atributos": {
+    "for": 6,
+    "des": 0,
+    "con": 4,
+    "int": -2,
+    "sab": 2,
+    "car": 0
+  },
+  "habilidades_interacao": [],
+  "itens": [
+    {
+      "nome": "clava pesada"
+    },
+    {
+      "nome": "gibão de peles"
+    },
+    {
+      "nome": "saco com 5 rochas"
+    }
+  ],
+  "defesas": {
+    "CA": 24,
+    "salvamentos": {
+      "fortitude": 17,
+      "reflexos": 12,
+      "vontade": 13
+    },
+    "PV": 140,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Pegar Rocha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    }
+  ],
+  "velocidade": {
+    "principal": 10.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "clava pesada",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros", "empurrar", "oscilante"],
+        "modificador": 19,
+        "dano": "1d10+14",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      },
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 3 metros"],
+        "modificador": 19,
+        "dano": "1d6+14",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 19,
+        "dano": "1d8+14",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Oscilação Ampla",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "O gigante da colina realiza um único Golpe com clava pesada e compara o resultado da rolagem às CA de até dois adversários no alcance dele. Isto conta como dois ataques para a penalidade por ataques múltiplos do gigante da colina."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Gigante humanoide territorial com força bruta impressionante",
+    "Atletismo excepcional (+19) combinado com velocidade decente (10.5m)",
+    "Múltiplas opções de ataque corpo a corpo com alcance de 3m",
+    "Ataque à distância potente com rochas (alcance 36m, dano 1d8+14)",
+    "Habilidade 'Oscilação Ampla' para atingir dois alvos com um só ataque",
+    "Clava pesada com traços especiais (empurrar, oscilante)",
+    "Reação 'Pegar Rocha' para defesa ou contra-ataque",
+    "PV robustos (140) e Fortitude alta (+17) para nível 7",
+    "Comunica-se em Comum e Jotun, permitindo interação básica",
+    "Equipamento característico: clava, armadura de peles e rochas para arremesso"
+  ]
+},
+  {
+  "nome": "Cauthooj",
+  "nivel": 12,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "N",
+    "tamanho": "Médio",
+    "outros_tracos": ["besta"]
+  },
+  "percepcao": {
+    "modificador": 22,
+    "sentidos_especiais": ["sentido de pensamentos (impreciso) 18 metros"]
+  },
+  "idiomas": ["Silvestre (incapaz de falar qualquer idioma)"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 24
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 25
+    }
+  ],
+  "atributos": {
+    "for": 6,
+    "des": 4,
+    "con": 7,
+    "int": -3,
+    "sab": 2,
+    "car": 0
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 33,
+    "salvamentos": {
+      "fortitude": 25,
+      "reflexos": 20,
+      "vontade": 18
+    },
+    "PV": 215,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "sônico",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Sentido de Pensamentos",
+      "acao": "automatica",
+      "traços": ["adivinhação", "mental", "ocultista"],
+      "descricao": "O cauthooj sente a essência mental de uma criatura à distância listada."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Pulo de Esquiva",
+      "acao": "reaction",
+      "traços": ["movimento"],
+      "descricao": "Acionamento O cauthooj é alvo de um Golpe corpo a corpo e está adjacente a outro inimigo que também está no alcance do Golpe corpo a corpo. Efeito O cauthooj agilmente pula de lado, redirecionando o Golpe acionador contra o inimigo adjacente. O cauthooj Anda até metade da Velocidade dele e este movimento não aciona reações."
+    }
+  ],
+  "velocidade": {
+    "principal": 10.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "bico",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 3 metros", "mortal 1d12"],
+        "modificador": 26,
+        "dano": "2d12+12",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Canção Trinada",
+      "acao": "two-actions",
+      "traços": ["auditivo", "incapacitação", "mental", "primal"],
+      "descricao": "O cauthooj solta um brado estranho e ululante, que faz criaturas próximas ficarem violentas e sem controle. Cada criatura em uma emanação de 36 metros que puder ouvir o cauthooj deve tentar um salvamento de Vontade CD 32 para resistir ao efeito. Sucesso Crítico O alvo não é afetado e fica temporariamente imune por 1 minuto. Sucesso O alvo não é afetado. Falha O alvo fica confuso por 1 rodada. Falha Crítica O alvo fica confuso por 1 rodada e imediatamente se ataca (da maneira normal que faria por se atacar enquanto estiver confuso). Este Golpe não concede à criatura um teste simples para recuperar-se da confusão."
+    },
+    {
+      "nome": "Golpe de Staccato",
+      "acao": "one-action",
+      "traços": ["mental", "primal", "sônico"],
+      "descricao": "Com alterações sutis no arfar e tom de sua canção, o cauthooj direciona uma criatura confusa por sua Canção Trinada a realizar um Golpe. Isto funciona como outros Golpes desferidos por criaturas confusas, exceto que o cauthooj escolhe o alvo. Se nenhum alvo estiver no alcance ou distância, ou se a criatura estiver incapaz de Golpear por qualquer outra razão, esta habilidade não gera efeito."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Besta psíquica com habilidades mentais e sônicas avançadas",
+    "Sentido de pensamentos para detectar criaturas em 18m (impreciso)",
+    "Canção Trinada com enorme área (36m) que causa confusão (CD 32 Vontade)",
+    "Habilidade única de controlar criaturas confusas com Golpe de Staccato",
+    "Ataque de bico com alcance estendido (3m) e dano mortal (1d12)",
+    "Reação defensiva inteligente que redireciona ataques para outros alvos",
+    "Resistência significativa a dano sônico (15)",
+    "Excelente Furtividade (+25) e Atletismo (+24)",
+    "PV robustos (215) e CA muito alta (33) para nível 12",
+    "Incapaz de falar, comunica-se apenas através do Silvestre"
+  ]
+},
+  {
+  "nome": "Irlgaunt",
+  "nivel": 13,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "NM",
+    "tamanho": "Grande",
+    "outros_tracos": ["aberração", "terra"]
+  },
+  "percepcao": {
+    "modificador": 24,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["Aklo", "Comum", "Jotun", "Terran"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 25
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 26
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 23
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 27
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 22
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 8,
+    "con": 5,
+    "int": 4,
+    "sab": 5,
+    "car": 4
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 34,
+    "salvamentos": {
+      "fortitude": 22,
+      "reflexos": 25,
+      "vontade": 24
+    },
+    "PV": 265,
+    "imunidades": ["ácido"],
+    "fraquezas": [
+      {
+        "tipo": "contundente",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Passo de Pedra",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O irlgaunt ignora terreno difícil composto por pedras e rochas."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 9
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": [],
+        "modificador": 26,
+        "dano": "3d8+13",
+        "tipo_dano": "perfurante",
+        "efeitos": ["2d6 ácido"]
+      },
+      {
+        "nome": "pernas",
+        "acao": "one-action",
+        "traços": ["ágil"],
+        "modificador": 26,
+        "dano": "3d10+13",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 31,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 6,
+        "magias": ["conto das rochas"]
+      },
+      {
+        "nivel": 4,
+        "magias": ["mesclar-se às rochas", "moldar rochas"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["mesclar-se às rochas", "moldar rochas"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Regurgitar Gastrólito",
+      "acao": "two-actions",
+      "traços": ["ácido", "evocação", "primal"],
+      "descricao": "O irlgaunt regurgita violentamente um agrupamento do tamanho de um melão de pedras irregulares sobrenaturalmente infundidas com enzimas digestivas. A pedra e o ácido explodem com o impacto dentro de uma distância de 9 metros, causando 7d6 de dano perfurante e 7d6 de dano de ácido às criaturas em uma explosão de 6 metros (Reflexos básico CD 33). O irlgaunt não pode Regurgitar Gastrólitos por 1d4 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Aberração terrestre com domínio sobre pedras e ácido",
+    "Magias primais inatas poderosas (CD 31), incluindo magias de 6º nível",
+    "Ataque Regurgitar Gastrólito com dano duplo massivo (7d6 perfurante + 7d6 ácido)",
+    "Imunidade a ácido mas vulnerabilidade a dano contundente (fraqueza 10)",
+    "Mobilidade excepcional com escalada igual à velocidade terrestre (9m)",
+    "Passo de Pedra ignora terreno difícil de pedras e rochas",
+    "Reflexos excepcionais (+25) e CA muito alta (34)",
+    "Poliglota fluente em 4 idiomas incluindo Aklo e Terran",
+    "Furtividade superior (+27) combinada com múltiplas perícias sociais",
+    "Dois ataques corpo a corpo potentes com modificador +26"
+  ]
+},
+  {
+  "nome": "Víbora de Vinhas",
+  "nivel": 13,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "N",
+    "tamanho": "Grande",
+    "outros_tracos": ["planta"]
+  },
+  "percepcao": {
+    "modificador": 22,
+    "sentidos_especiais": ["sentido sísmico (impreciso) 18 metros", "visão na penumbra"]
+  },
+  "idiomas": [],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 27
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 24
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 5,
+    "con": 7,
+    "int": -4,
+    "sab": 5,
+    "car": -3
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 33,
+    "salvamentos": {
+      "fortitude": 26,
+      "reflexos": 24,
+      "vontade": 22
+    },
+    "PV": 270,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "veneno",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Vulnerabilidade a Frio",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Quando exposta a um efeito de frio, a víbora de vinhas é sobrepujada por letargia, ficando lenta 1 por 1d4 rodadas."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 6,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 27,
+        "dano": "3d6+11",
+        "tipo_dano": "perfurante",
+        "efeitos": ["3d6 veneno"]
+      },
+      {
+        "nome": "vinha",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros"],
+        "modificador": 27,
+        "dano": "3d10+11",
+        "tipo_dano": "contundente",
+        "efeitos": ["Atracar"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Constrição",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "3d8+8 contundente, CD 33"
+    },
+    {
+      "nome": "Pólen Cativante",
+      "acao": "one-action",
+      "traços": ["encantamento", "incapacitação", "mental", "veneno"],
+      "descricao": "A víbora de vinhas solta uma emanação de 18 metros de pólen invisível que fica no ar por 5 rodadas, a menos que seja dispersada por vento moderado ou mais forte. Cada criatura que entre ou comece seu turno na área deve tentar um salvamento de Vontade CD 33 ou fica cativada. A víbora de vinhas não pode usar o Pólen Cativante por 1d4 rodadas. Sucesso Crítico A criatura não é afetada e fica temporariamente imune ao Pólen Cativante por 24 horas. Sucesso A criatura fica enjoada 1. Falha A criatura fica fascinada e deve gastar cada uma de suas ações para se mover para mais perto da víbora de vinhas o mais rápido possível enquanto evita perigos óbvios. Caso a criatura cativada esteja adjacente à víbora de vinhas, ela fica parada e não age. Ela para de estar fascinada se não estiver mais na aura de pólen no fim do seu turno. Falha Crítica Como falha, mas a criatura também fica estupefata 2 por 24 horas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Planta predatória com habilidades de controle mental avançadas",
+    "Pólen Cativante com enorme área (18m) que fascina criaturas (CD 33 Vontade)",
+    "Dois ataques corpo a corpo com alcances estendidos (3m e 4.5m)",
+    "Dano combinado perfurante + veneno nas mandíbulas (3d6+11 + 3d6)",
+    "Constrição poderosa que causa 3d8+8 dano contundente (CD 33)",
+    "Resistência significativa a veneno (15)",
+    "Vulnerabilidade tática a efeitos de frio (fica lenta 1 por 1d4 rodadas)",
+    "Atletismo excepcional (+27) com modificadores de ataque altos (+27)",
+    "Sentido sísmico para detectar movimentos no solo (18m impreciso)",
+    "PV muito altos (270) e defesas robustas (CA 33, Fort +26) para nível 13"
+  ]
+},
+  {
+  "nome": "Ankou",
+  "nivel": 14,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "OM",
+    "tamanho": "Grande",
+    "outros_tracos": ["fada"]
+  },
+  "percepcao": {
+    "modificador": 25,
+    "sentidos_especiais": ["sentido vital 36 metros", "visão na penumbra"]
+  },
+  "idiomas": ["Aklo", "Comum", "Silvestre (incapaz de falar qualquer idioma)"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 28
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 25
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 28
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 27
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 22
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 8,
+    "con": 4,
+    "int": 2,
+    "sab": 2,
+    "car": 5
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "telepatia",
+      "alcance": 30,
+      "descricao": "30 metros"
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 36,
+    "salvamentos": {
+      "fortitude": 23,
+      "reflexos": 28,
+      "vontade": 24
+    },
+    "PV": 280,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Ataque Furtivo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Os Golpes de um ankou causam 2d6 de dano de precisão extra em criaturas desprevenidas."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 19.5,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 19.5
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "ferro frio"],
+        "modificador": 29,
+        "dano": "3d6+15",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "asa",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "ferro frio"],
+        "modificador": 29,
+        "dano": "2d6+15",
+        "tipo_dano": "perfurante",
+        "efeitos": ["2d6 persistente de sangramento"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 34,
+    "modificador_ataque": 26,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["discernir localização"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["rajada prismática", "teleporte"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["visão verdadeira"]
+      },
+      {
+        "nivel": 4,
+        "magias": ["âncora dimensional", "escuridão"]
+      },
+      {
+        "nivel": 2,
+        "magias": ["silêncio"]
+      },
+      {
+        "nivel": 1,
+        "magias": ["raio do enfraquecimento"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["escuridão"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Duplo de Sombra",
+      "acao": "one-action a three-actions",
+      "traços": ["ilusão", "ocultismo", "sombra"],
+      "descricao": "Frequência uma vez por dia; Efeito Para cada ação gasta no uso desta habilidade, o ankou cria uma duplicata sombria de si mesmo em qualquer lugar a até 18 metros de si mesmo. Duplos de sombra têm as mesmas estatísticas de um ankou, mas têm o traço convocado, 84 Pontos de Vida, não podem usar Duplos de Sombra ou magias inatas, e têm +25 de bônus de ataque em seus Golpes. Um duplo de sombra que faça um salvamento contra um efeito de luz não pode conseguir um resultado melhor do que falha. Cada duplo permanece por 1 rodada, até que seja reduzido a 0 Pontos de Vida ou até que se mova mais longe do que 36 metros do ankou, o que ocorrer primeiro. A cada rodada posterior, o ankou pode gastar uma ação simples com o traço concentração para estender a duração das duplicatas sobreviventes em 1 rodada, até a duração máxima de 1 minuto. O ankou pode ver através dos olhos de todos os duplos de sombra ao mesmo tempo. Um personagem que Busque pode identificar um ankou como real ou duplo de sombra obtendo sucesso em um teste de Percepção CD 39."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Fada sombria de alto nível com habilidades ilusórias avançadas",
+    "Duplo de Sombra que cria múltiplas cópias (até 3 com three-actions)",
+    "Magias primais poderosas incluindo magias de 8º nível (CD 34)",
+    "Voo extremamente rápido (19.5m) combinado com excelente mobilidade",
+    "Ataque Furtivo que causa 2d6 dano extra contra desprevenidos",
+    "Sentido vital para detectar criaturas vivas em 36m",
+    "Telepatia para comunicação silenciosa (30m)",
+    "Reflexos excepcionais (+28) e CA muito alta (36)",
+    "Ataques com ferro frio que exploram fraqueza de outras fadas",
+    "Habilidade de asa causa dano persistente de sangramento"
+  ]
+},
+  {
+  "nome": "Lordes Tigres",
+  "nivel": 8,
+  "traços": {
+    "raridade": "incomum",
+    "tendencia": "CN",
+    "tamanho": "Médio",
+    "outros_tracos": ["humanoide", "humano"]
+  },
+  "percepcao": {
+    "modificador": 18,
+    "sentidos_especiais": []
+  },
+  "idiomas": ["comum", "hallita"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 18
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 16
+    }
+  ],
+  "atributos": {
+    "for": 4,
+    "des": 2,
+    "con": 2,
+    "int": 0,
+    "sab": 4,
+    "car": 2
+  },
+  "habilidades_interacao": [],
+  "itens": [
+    {
+      "nome": "escudo de madeira pesado"
+    },
+    {
+      "nome": "gibão de peles"
+    },
+    {
+      "nome": "machadinhas (6)"
+    },
+    {
+      "nome": "machado de batalha +1 impactante"
+    }
+  ],
+  "defesas": {
+    "CA": 26,
+    "salvamentos": {
+      "fortitude": 16,
+      "reflexos": 14,
+      "vontade": 18
+    },
+    "PV": 160,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Sem Escapatória",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento Um adversário no alcance tenta se mover para longe do Lorde Tigre; Efeito O Lorde Tigre Anda até sua Velocidade, seguindo o adversário e mantendo-o ao alcance durante todo o movimento até ele parar de se mover ou o Lorde Tigre ter movido toda sua Velocidade."
+    },
+    {
+      "nome": "Fúria Vingativa",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Requerimentos O Lorde Tigre não está fatigado ou em fúria; Acionamento O Lorde Tigre sofre dano que reduz seus PVs para 100 ou menos; Efeito O Lorde Tigre entra em uma fúria que dura 1 minuto. Enquanto estiver em fúria, ele recebe +1 de bônus de estado em testes de ataque, +2 de bônus de estado em jogadas de dano e sofre –2 de penalidade de estado na CA. Depois da fúria, o Lorde Tigre fica fatigado."
+    }
+  ],
+  "velocidade": {
+    "principal": 9,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "machado de batalha",
+        "acao": "one-action",
+        "traços": ["amplitude"],
+        "modificador": 21,
+        "dano": "2d8+8",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "machadinha",
+        "acao": "one-action",
+        "traços": ["ágil", "amplitude"],
+        "modificador": 21,
+        "dano": "1d6+8",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "machadinha",
+        "acao": "one-action",
+        "traços": ["arremesso 3 metros"],
+        "modificador": 21,
+        "dano": "1d6+8",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Voleio Aproximante",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O Lorde Tigre faz um Golpe à distância com a machadinha, depois Anda até duas vezes a sua velocidade. Se terminar o movimento no alcance corpo a corpo do alvo do Golpe à distância, ele pode fazer um Golpe corpo a corpo contra esse inimigo. Se o Golpe à distância acertar, o alvo fica desprevenido contra o Golpe corpo a corpo."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Bárbaros humanos tribais com táticas de combate agressivas",
+    "Fúria Vingativa que ativa automaticamente quando PV caem para 100 ou menos",
+    "Reação Sem Escapatória que impede inimigos de fugirem do combate",
+    "Voleio Aproximante permite ataque à distância seguido de movimento e ataque corpo a corpo",
+    "Múltiplas opções de ataque com machados (corpo a corpo e à distância)",
+    "Equipamento tribal característico: machados, escudo pesado e gibão de peles",
+    "Vontade excepcionalmente alta (+18) para um bárbaro de nível 8",
+    "Modificadores de ataque muito altos (+21) para o nível",
+    "Comunicação em dois idiomas (comum e hallita)",
+    "Combinação ofensiva que força engajamento em combate corpo a corpo"
+  ]
+},
+  {
+  "nome": "Athach",
+  "nivel": 12,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "CM",
+    "tamanho": "Enorme",
+    "outros_tracos": ["gigante", "humanoide"]
+  },
+  "percepcao": {
+    "modificador": 22,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["Jotun"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 25
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 21
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 3,
+    "con": 7,
+    "int": -1,
+    "sab": 4,
+    "car": 3
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 33,
+    "salvamentos": {
+      "fortitude": 25,
+      "reflexos": 20,
+      "vontade": 21
+    },
+    "PV": 250,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Um athach recebe uma reação extra no início de cada um de seus turnos, que só pode ser usada para fazer um Ataque de Oportunidade com sua garra. Ele não pode usar mais de um Ataque de Oportunidade acionado por uma mesma ação."
+    },
+    {
+      "nome": "Pegar Rocha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Garra Rápida",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O athach acerta uma criatura com dois Golpes de punho; Efeito O athach faz um Golpe com garra sem penalidade por ataques múltiplos contra a criatura atingida por seus Golpes de punho. Este ataque de garra não aumenta a penalidade por ataques múltiplos do athach."
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 25,
+        "dano": "3d12+13",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      },
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": [],
+        "modificador": 25,
+        "dano": "3d8+13",
+        "tipo_dano": "perfurante",
+        "efeitos": ["peçonha de athach"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil"],
+        "modificador": 25,
+        "dano": "3d8+13",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 25,
+        "dano": "3d8+13",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Peçonha de Athach",
+      "acao": "automatica",
+      "traços": ["veneno"],
+      "descricao": "Salvamento Fortitude CD 32; Duração Máxima 6 rodadas; Estágio 1 2d6 de dano de veneno e enfraquecido 1; Estágio 2 2d6 de dano de veneno e enfraquecido 2; Estágio 3 2d6 de dano de veneno e enfraquecido 3"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Gigante enorme com múltiplos ataques e veneno debilitante",
+    "Ataque de Oportunidade especial com reação extra para ataques de garra",
+    "Peçonha poderosa que causa dano de veneno e condição enfraquecido (CD 32 Fortitude)",
+    "Quatro ataques corpo a corpo diferentes com modificadores altos (+25)",
+    "Ataque à distância com rochas de longo alcance (36m) e dano significativo",
+    "Reação Garra Rápida que permite ataque extra após acertar dois punhos",
+    "Velocidade impressionante para criatura enorme (12m)",
+    "PV muito altos (250) e Fortitude excelente (+25) para nível 12",
+    "Fraqueza tática a ferro frio (10) que pode ser explorada",
+    "Alcance estendido de 3m em ataques de punho"
+  ]
+},
+  {
+  "nome": "Doprillu",
+  "nivel": 14,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "NM",
+    "tamanho": "Médio",
+    "outros_tracos": ["aberração"]
+  },
+  "percepcao": {
+    "modificador": 22,
+    "sentidos_especiais": ["ver invisibilidade", "visão no escuro"]
+  },
+  "idiomas": ["Aklo", "Comum", "Subterrâneo"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 26
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 30
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 24
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 22
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 6,
+    "con": 7,
+    "int": 1,
+    "sab": 4,
+    "car": 2
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 36,
+    "salvamentos": {
+      "fortitude": 27,
+      "reflexos": 28,
+      "vontade": 24
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "medo",
+        "valor": 2
+      }
+    ],
+    "PV": 260,
+    "habilidades_PV": [
+      {
+        "nome": "regeneração",
+        "valor": 20,
+        "condicao": "desativada por frio"
+      }
+    ],
+    "imunidades": ["enfraquecido (enquanto vestindo sua máscara)", "lento (enquanto vestindo sua máscara)"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "fogo",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Máscara do Poder",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "A máscara de madeira única do doprillu é a fonte do poder dele. Um doprillu privado de sua máscara perde sua regeneração e sua imunidade a enfraquecido e lento, e fica imediatamente enfraquecido 1. O valor de enfraquecido aumenta em 1 no começo de cada turno do doprillu, até um máximo de enfraquecido 4. Caso a máscara seja vestida novamente, o doprillu recupera imediatamente suas habilidades e perde a condição enfraquecido. Uma criatura pode arrancar a máscara obtendo sucesso em um teste de Atletismo CD 34 para Forçar."
+    },
+    {
+      "nome": "Veias Vulcânicas",
+      "acao": "automatica",
+      "traços": ["fogo"],
+      "descricao": "Magma ardente corre pelas veias de um doprillu. Uma criatura que comece seu turno agarrada por um doprillu sofre 7d6 de dano de fogo."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Defletir Flecha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O doprillu é alvo de um ataque a distância físico; Requerimentos O doprillu está ciente do ataque, não está desprevenido contra ele e tem uma mão livre; Efeito O doprillu recebe +4 de bônus de circunstância na CA contra o ataque acionador."
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 12
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["ágil", "mágico"],
+        "modificador": 30,
+        "dano": "3d8+16",
+        "tipo_dano": "contundente",
+        "efeitos": ["2d6 de fogo", "Atracar Aprimorado"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "ocultista",
+    "CD": 28,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [
+      {
+        "nivel": 6,
+        "magias": ["ver invisibilidade"]
+      }
+    ],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremesso Rodopiante",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "Requerimentos O doprillu tem uma criatura agarrada; Efeito O doprillu gira a criatura agarrada, realizando um Golpe de Corpo contra cada criatura no alcance dele. Depois desse Golpe, o doprillu pode arremessar a criatura agarrada a até 15 metros como Golpe a distância. Esse Golpe tem o mesmo modificador de ataque e dano do Golpe de Corpo, mas tem o traço de arma de arremesso 6 metros."
+    },
+    {
+      "nome": "Golpe de Corpo",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "Requerimentos O doprillu tem uma criatura agarrada; Efeito O doprillu balança a criatura agarrada como uma arma. Esse Golpe tem +30 de modificador de ataque e causa 3d8+16 de dano contundente. Esse Golpe é mágico e tem um alcance de 3 metros. Caso acerte, a criatura agarrada sofre metade do dano causado ao alvo."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Aberração poderosa dependente de sua máscara mágica para manter poderes",
+    "Regeneração 20 que só é desativada por dano de frio",
+    "Habilidades únicas de usar criaturas agarradas como armas",
+    "Atletismo excepcional (+30) e modificador de ataque máximo (+30)",
+    "Múltiplas imunidades e resistências enquanto usando a máscara",
+    "Magia constante de ver invisibilidade (6º nível)",
+    "Defesa excepcional contra ataques à distância com Defletir Flecha",
+    "Dano de fogo passivo contra criaturas agarradas (7d6 por turno)",
+    "Mobilidade superior com escalada igual à velocidade terrestre (12m)",
+    "Vulnerabilidade tática: remover a máscara causa enfraquecido progressivo"
+  ]
+},
+  {
+  "nome": "Troll Jotund",
+  "nivel": 15,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CM",
+    "tamanho": "Grande",
+    "outros_tracos": ["gigante", "mutante", "troll"]
+  },
+  "percepcao": {
+    "modificador": 29,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["Jotun"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 29
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 27
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 4,
+    "con": 8,
+    "int": -1,
+    "sab": 6,
+    "car": 4
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 35,
+    "bonus_CA": ["visão 360º"],
+    "salvamentos": {
+      "fortitude": 31,
+      "reflexos": 23,
+      "vontade": 23
+    },
+    "PV": 360,
+    "habilidades_PV": [
+      {
+        "nome": "regeneração",
+        "valor": 40,
+        "condicao": "desativada por ácido ou fogo"
+      }
+    ],
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "fogo",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Crescer Cabeça",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Um troll jotund originalmente tem nove cabeças, e pode usar sua regeneração para recuperar uma cabeça arrancada por um efeito como uma arma vorpal. Depois de recuperar Pontos de Vida pela regeneração, o troll jotund faz um teste simples CD 8. Caso obtenha um sucesso, a cabeça faltante é completamente restaurada; em um sucesso crítico, duas cabeças faltantes são completamente restauradas. Caso o troll jotund perca sua última cabeça remanescente, ele morre imediatamente."
+    },
+    {
+      "nome": "Múltiplas Oportunidades",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Um troll jotund recebe uma reação extra por rodada para cada cabeça além da primeira, que ele só pode usar para fazer Ataques de Oportunidade com suas mandíbulas ou para Engolir Rápido. Eles não podem usar mais de 1 reação por ação acionadora, mesmo se uma criatura sair de vários quadrados dentro do alcance dele, o troll jotund precisa usar uma cabeça diferente para cada Ataque de Oportunidade feito. Sempre que uma das cabeças do troll jotund for arrancada, o troll perde 1 das suas reações extras por rodada."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Pegar Rocha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Engolir Rápido",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O troll jotund Agarra uma criatura com suas mandíbulas; Efeito O troll usa Engolir Inteiro."
+    }
+  ],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 6
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros"],
+        "modificador": 29,
+        "dano": "3d12+14",
+        "tipo_dano": "perfurante",
+        "efeitos": ["Atracar"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros"],
+        "modificador": 29,
+        "dano": "3d10+14",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 30,
+        "dano": "2d12+14",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Despedaçar",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "garra"
+    },
+    {
+      "nome": "Engolir Inteiro",
+      "acao": "one-action",
+      "traços": ["ataque"],
+      "descricao": "Médio, 3d12+8 contundente, Ruptura 36"
+    },
+    {
+      "nome": "Mandíbulas Vorazes",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O troll jotund faz uma quantidade de Golpes de mandíbulas igual à quantidade de suas cabeças, cada um contra um alvo diferente. Esses ataques contam para a penalidade por ataques múltiplos do troll, mas a penalidade só aumenta após todos os ataques serem realizados."
+    },
+    {
+      "nome": "Rugido Cacofônico",
+      "acao": "two-actions",
+      "traços": ["auditivo", "emoção", "encantamento", "incapacitação", "mental", "primal"],
+      "descricao": "O troll jotund emite um rugido cacofônico de todas as suas cabeças com um poder místico que distorce a mente de quem ouve. Cada criatura não-troll a até 30 metros deve tentar um salvamento de Vontade CD 34. O troll jotund não pode usar o Rugido Cacofônico por 1d4 rodadas. Sucesso Crítico A criatura não é afetada e fica temporariamente imune ao Rugido Cacofônico por 24 horas. Sucesso A criatura fica estupefata 1 por 1 rodada. Falha A criatura fica confusa por 1 rodada. Falha Crítica a criatura fica confusa por 1d4 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Troll mutante de nove cabeças com regeneração poderosa (40)",
+    "Múltiplas reações extras baseadas no número de cabeças (até 8 extras)",
+    "Habilidade única de regenerar cabeças arrancadas (teste CD 8)",
+    "Ataque multi-alvo Mandíbulas Vorazes que pode atingir até 9 alvos",
+    "Rugido Cacofônico com área massiva (30m) que causa confusão (CD 34 Vontade)",
+    "PV extremamente altos (360) e Fortitude excepcional (+31)",
+    "Alcance estendido em ataques corpo a corpo (4.5m)",
+    "Engolir Inteiro com Ruptura muito alta (36) para criaturas Médias",
+    "Visão 360° que previne flanqueamento",
+    "Vulnerabilidade tática: regeneração desativada por ácido ou fogo + fraqueza a fogo 10"
+  ]
+},
+  {
+  "nome": "Wemmute",
+  "nivel": 15,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "NM",
+    "tamanho": "Enorme",
+    "outros_tracos": ["planta"]
+  },
+  "percepcao": {
+    "modificador": 25,
+    "sentidos_especiais": ["sentido sísmico (impreciso) 18 metros", "visão no escuro"]
+  },
+  "idiomas": ["Aklo", "Silvestre (incapaz de falar qualquer idioma)"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 30
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 28
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 30
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 27
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 6,
+    "con": 6,
+    "int": -2,
+    "sab": 4,
+    "car": 2
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 37,
+    "salvamentos": {
+      "fortitude": 27,
+      "reflexos": 27,
+      "vontade": 24
+    },
+    "PV": 335,
+    "habilidades_PV": ["sugar sangue"],
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "cortante",
+        "valor": 15
+      },
+      {
+        "tipo": "frio",
+        "valor": 20
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Massa Espinhosa",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Sempre que uma criatura a até 3 metros realizar um ataque corpo a corpo contra uma wemmute ou utilizar Acrobatismo para Atravessar Acrobaticamente o espaço dele, essa criatura sofre 1d12+10 de dano perfurante."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Sugar Sangue",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O wemmute causa dano a uma criatura com Constrição. Efeito O wemmute cura uma quantidade de Pontos de Vida igual à metade do dano total causado pela Constrição."
+    }
+  ],
+  "velocidade": {
+    "principal": 7.5,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 7.5
+      },
+      {
+        "tipo": "escavação",
+        "valor": 7.5
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "batida",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "amplitude", "fatal d12"],
+        "modificador": 29,
+        "dano": "4d12+10",
+        "tipo_dano": "contundente",
+        "efeitos": ["Atracar Aprimorado"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "pedregulho",
+        "acao": "one-action",
+        "traços": ["alcance 18 metros", "fatal d12"],
+        "modificador": 27,
+        "dano": "4d10+10",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Constrição",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "2d12+10, CD 37"
+    },
+    {
+      "nome": "Engolfar",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "CD 37, 4d8 contundente, Escapar CD 35, Ruptura 36"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Planta predatória enorme com múltiplas formas de mobilidade",
+    "Ataque corpo a corpo com dano massivo (4d12+10) e crítico fatal (d12)",
+    "Massa Espinhosa que causa dano retaliatório automático (1d12+10 perfurante)",
+    "Habilidade de cura Sugar Sangue que recupera PV baseado no dano da Constrição",
+    "Engolfar com Ruptura extremamente alta (36) para controle de terreno",
+    "Mobilidade tridimensional completa (escalada e escavação 7.5m)",
+    "Fraquezas significativas a cortante (15) e frio (20)",
+    "Atletismo e Furtividade excepcionais (+30) para criatura enorme",
+    "Sentido sísmico para detectar movimentos no solo (18m impreciso)",
+    "CA muito alta (37) e salvamentos robustos para nível 15"
+  ]
+},
+  {
+  "nome": "Protetor de Pitax",
+  "nivel": 12,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "N",
+    "tamanho": "Médio",
+    "outros_tracos": ["humano", "humanoide"]
+  },
+  "percepcao": {
+    "modificador": 22,
+    "sentidos_especiais": []
+  },
+  "idiomas": ["comum", "hallita"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 22
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 25
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 24
+    },
+    {
+      "nome": "Ocultismo",
+      "modificador": 20
+    },
+    {
+      "nome": "Performance",
+      "modificador": 24
+    },
+    {
+      "nome": "Sociedade",
+      "modificador": 20
+    }
+  ],
+  "atributos": {
+    "for": 5,
+    "des": 2,
+    "con": 3,
+    "int": 0,
+    "sab": 2,
+    "car": 4
+  },
+  "habilidades_interacao": [],
+  "itens": [
+    {
+      "nome": "arco curto composto (20 flechas)"
+    },
+    {
+      "nome": "armadura completa +1"
+    },
+    {
+      "nome": "montante +1 impactante"
+    },
+    {
+      "nome": "poções de cura moderada (2)"
+    }
+  ],
+  "defesas": {
+    "CA": 33,
+    "salvamentos": {
+      "fortitude": 23,
+      "reflexos": 21,
+      "vontade": 23
+    },
+    "PV": 215,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    }
+  ],
+  "velocidade": {
+    "principal": 7.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "montante",
+        "acao": "one-action",
+        "traços": ["versátil P"],
+        "modificador": 26,
+        "dano": "2d12+9",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "arco curto",
+        "acao": "one-action",
+        "traços": ["mortal d10", "propulsiva", "recarga 0"],
+        "modificador": 23,
+        "dano": "1d6+9",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "ocultista",
+    "tipo": "espontânea",
+    "CD": 30,
+    "modificador_ataque": 22,
+    "por_nivel": {
+      "truques": ["escudo místico", "pasmar"],
+      "1º": ["raio de enfraquecimento"],
+      "2º": ["manobra telecinética"],
+      "3º": ["rapidez"],
+      "4º": ["discernir mentiras"],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Ataque Poderoso",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O protetor faz um Golpe corpo a corpo. Ele conta como dois ataques para a penalidade por ataques múltiplos. Se acertar, ele causa um dado de dano da arma extra."
+    },
+    {
+      "nome": "Investida Súbita",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O protetor de Pitax corre até o adversário e ataca. Ele Anda duas vezes; se encerrar esse movimento com pelo menos um inimigo em alcance corpo a corpo, pode realizar um Golpe corpo a corpo contra esse inimigo"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Guarda real humano com combinação única de combate físico e magia ocultista",
+    "Magias ocultistas espontâneas até 4º nível (CD 30) com utilidade tática",
+    "Ataque Poderoso que aumenta significativamente o dano da montante",
+    "Investida Súbita para engajamento rápido em combate",
+    "Equipamento de elite: armadura completa +1 e montante +1 impactante",
+    "Perícias sociais avançadas (Intimidação +24, Performance +24)",
+    "Atletismo excepcional (+25) e modificador de ataque alto (+26)",
+    "Versatilidade em combate com opções corpo a corpo e à distância",
+    "Poções de cura para sustentabilidade em combate prolongado",
+    "Defesas balanceadas com CA 33 e salvamentos sólidos para nível 12"
+  ]
+},
+  {
+  "nome": "Jurado-da-Guerra",
+  "nivel": 16,
+  "traços": {
+    "raridade": "incomum",
+    "tendencia": "NM",
+    "tamanho": "Imenso",
+    "outros_tracos": ["morto-vivo"]
+  },
+  "percepcao": {
+    "modificador": 27,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["Comum (incapaz de falar qualquer idioma)"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 33
+    }
+  ],
+  "atributos": {
+    "for": 9,
+    "des": 5,
+    "con": 7,
+    "int": -1,
+    "sab": 5,
+    "car": 5
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 37,
+    "salvamentos": {
+      "fortitude": 29,
+      "reflexos": 25,
+      "vontade": 27
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "positivo",
+        "valor": 1
+      }
+    ],
+    "PV": 350,
+    "habilidades_PV": ["cura negativa"],
+    "imunidades": ["doença", "efeitos de morte", "inconsciente", "paralisado", "veneno"],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Presença Aterradora",
+      "acao": "aura",
+      "traços": ["aura", "emoção", "medo", "mental"],
+      "descricao": "30 metros, CD 35"
+    },
+    {
+      "nome": "Armas Animadas",
+      "acao": "automatica",
+      "traços": ["divino", "evocação"],
+      "descricao": "O jurado-da-guerra assume o controle de armas desapossadas a até 30 metros, forçando-as a levitar ao redor dele. O jurado-da-guerra pode empunhar estas armas telecineticamente para realizar Golpes corpo a corpo a até 30 metros."
+    },
+    {
+      "nome": "Drenar Energia",
+      "acao": "automatica",
+      "traços": ["divino", "necromancia"],
+      "descricao": "Quando o jurado-da-guerra acerta e causa dano com a onda de cadáveres dele ou causa dano a uma criatura usando Atropelar, o alvo deve obter sucesso em um salvamento de Fortitude CD 35 ou fica condenado 1 e drenado 2. Em um sucesso crítico, o alvo fica temporariamente imune ao drenar energia do jurado-da-guerra por 24 horas."
+    },
+    {
+      "nome": "Prumo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Uma criatura atingida por um Golpe de bola de fragmentos do jurado-da-guerra deve tentar um salvamento de Reflexos CD 37. Em uma falha, o alvo fica prostrado; se o alvo estiver no ar, ele cai até 36 metros, sofrendo dano da queda e aterrissando prostrado se a descida o levar até o chão. Em uma falha crítica, o alvo também fica sob uma pilha de fragmentos (Escapar CD 37)."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Absorver",
+      "acao": "free-action",
+      "traços": ["divino", "morte", "necromancia"],
+      "descricao": "Acionamento O jurado-da-guerra se move para o espaço de uma criatura morrendo. Efeito O jurado-da-guerra absorve a criatura morrendo em si, matando-a instantaneamente e curando o jurado-da-guerra em uma quantidade de Pontos de Vida igual ao nível da criatura. Enquanto o jurado-da-guerra existir, criaturas absorvidas não podem ser ressuscitadas (exceto pode desejo ou um efeito similarmente poderoso)."
+    }
+  ],
+  "velocidade": {
+    "principal": 9,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "onda de cadáveres",
+        "acao": "one-action",
+        "traços": ["mágico"],
+        "modificador": 32,
+        "dano": "4d12+9",
+        "tipo_dano": "contundente",
+        "efeitos": ["drenar energia"]
+      },
+      {
+        "nome": "arma animada",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 30 metros", "mágico", "versátil Cn", "Versátil Pf"],
+        "modificador": 30,
+        "dano": "quatro dados de dano da arma +9",
+        "tipo_dano": "variável",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "bola de fragmentos",
+        "acao": "one-action",
+        "traços": ["alcance 30 metros", "mágico"],
+        "modificador": 28,
+        "dano": "4d12+9",
+        "tipo_dano": "contundente",
+        "efeitos": ["prumo"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Enorme ou menor, onda de cadáveres, CD 37"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Morto-vivo imenso com habilidades divinas de necromancia",
+    "Presença Aterradora com aura massiva de 30m (CD 35 Vontade)",
+    "Drenar Energia que causa condições condenado 1 e drenado 2 (CD 35 Fortitude)",
+    "Armas Animadas com alcance de 30m para ataques corpo a corpo",
+    "Absorver que mata criaturas morrendo e previne ressurreição",
+    "Atletismo excepcional (+33) para criatura de tamanho imenso",
+    "Múltiplas imunidades de morto-vivo incluindo morte e paralisia",
+    "Ataques com alcance estendido (30m) e dano significativo",
+    "Habilidade Prumo que derruba criaturas voadoras e causa prostração",
+    "Cura negativa e bônus contra efeitos positivos"
+  ]
+},
+  {
+  "nome": "Cão da Caçada Selvagem",
+  "nivel": 14,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CN",
+    "tamanho": "Médio",
+    "outros_tracos": ["caçada selvagem", "fada"]
+  },
+  "percepcao": {
+    "modificador": 29,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão no escuro maior", "visão verde", "ver invisibilidade"]
+  },
+  "idiomas": ["comum", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 24
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 29
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 26
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 27,
+      "notas": "+29 para Rastrear"
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 4,
+    "con": 5,
+    "int": 1,
+    "sab": 5,
+    "car": 4
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "falar com animais",
+      "descricao": ""
+    },
+    {
+      "nome": "falar com plantas",
+      "descricao": ""
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 36,
+    "salvamentos": {
+      "fortitude": 27,
+      "reflexos": 24,
+      "vontade": 25
+    },
+    "PV": 300,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O cão da caçada selvagem trata o plano no qual se encontra como o plano de origem."
+    },
+    {
+      "nome": "Ligação da Caçada Selvagem",
+      "acao": "aura",
+      "traços": ["adivinhação", "aura", "mágico"],
+      "descricao": "150 metros. Um cão da caçada selvagem concede a todos os membros da caçada selvagem na aura, exceto cães da caçada selvagem, os efeitos da magia inata constante ver invisibilidade."
+    },
+    {
+      "nome": "Visão Verde",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O cão da caçada selvagem ignora a condição ocultado por folhas e outras folhagens."
+    },
+    {
+      "nome": "Cooperação Instintiva",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O cão da caçada selvagem automaticamente consegue um sucesso crítico em jogadas de salvamento contra efeitos criados por outras criaturas da caçada selvagem aliadas."
+    },
+    {
+      "nome": "Olhar Selvagem",
+      "acao": "aura",
+      "traços": ["aura", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "9 metros. Aqueles que encontram o olhar de um cão da caçada selvagem encaram o terrível poder da caçada e acham difícil agir diante de um legado tão lendário. Quando uma criatura termina o seu turno na aura, ela deve ser bem-sucedido em um salvamento de Vontade CD 31 ou fica lenta 1 (lenta 2 em uma falha crítica). O cão da caçada selvagem pode desativar ou ativar esta aura usando uma ação única, que possui o traço concentração."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 15,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["ágil", "mágico"],
+        "modificador": 29,
+        "dano": "3d10+11",
+        "tipo_dano": "perfurante",
+        "efeitos": ["Tombar"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 34,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 7,
+        "magias": ["dissipar magia"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["conto das rochas"]
+      },
+      {
+        "nivel": 5,
+        "magias": ["localizar"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 7,
+        "magias": ["falar com animais", "falar com plantas", "ver invisibilidade"]
+      }
+    ],
+    "a_vontade": ["detectar magia", "intuir direção", "mão mística"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Convocar Matilha",
+      "acao": "two-actions",
+      "traços": ["aura", "conjuração", "primal"],
+      "descricao": "Frequência uma vez por dia; Efeito Com um uivo, o cão da caçada selvagem convoca uma névoa que se manifesta em vários cães brumosos. Estes cães enevoados saltam, correm e uivam em uma aura de 6 metros, enquanto o cão da caçada selvagem Sustentar o efeito. Embora os cães pareçam ser feitos de névoa, os dentes são muito reais e qualquer criatura que terminar o seu turno na aura sofre 6d6 de dano perfurante de várias mordidas (Reflexos básicos CD 31)."
+    },
+    {
+      "nome": "Olhar Focado",
+      "acao": "one-action",
+      "traços": ["concentração", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "O cão da caçada selvagem olha fixamente para uma criatura que pode ver a até 9 metros. O alvo deve imediatamente fazer um salvamento de Vontade. Se a criatura já estiver lenta por causa do olhar selvagem antes de fazer o salvamento, uma falha a faz ficar paralisada por 1 rodada. Após fazer o salvamento, a criatura fica imune a Olhar Focado de qualquer caçada selvagem até o início do próximo turno do cão da caçada selvagem"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Fada lendária da Caçada Selvagem com habilidades de suporte e controle",
+    "Aura Ligação da Caçada Selvagem que concede ver invisibilidade a aliados (150m)",
+    "Olhar Selvagem que causa lentidão em área (9m, CD 31 Vontade)",
+    "Olhar Focado que pode paralisar criaturas já afetadas pelo Olhar Selvagem",
+    "Convocar Matilha com dano de área significativo (6d6 perfurante, CD 31 Reflexos)",
+    "Magias primais poderosas incluindo dissipar magia de 7º nível (CD 34)",
+    "Percepção excepcional (+29) com múltiplos sentidos especiais",
+    "Velocidade muito alta (15m) para perseguição eficiente",
+    "Habilidades de comunicação com animais e plantas",
+    "Fraqueza a ferro frio (15) típica de fadas"
+  ]
+},
+  {
+  "nome": "Arqueiro da Caçada Selvagem",
+  "nivel": 16,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CN",
+    "tamanho": "Médio",
+    "outros_tracos": ["caçada selvagem", "fada"]
+  },
+  "percepcao": {
+    "modificador": 30,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão no escuro maior", "visão verdadeira", "visão verde"]
+  },
+  "idiomas": ["aklo", "comum", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 32
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 30
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 32
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 32
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 27
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 30
+    }
+  ],
+  "atributos": {
+    "for": 6,
+    "des": 8,
+    "con": 6,
+    "int": 3,
+    "sab": 6,
+    "car": 6
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "falar com animais",
+      "descricao": ""
+    },
+    {
+      "nome": "falar com plantas",
+      "descricao": ""
+    }
+  ],
+  "itens": [
+    {
+      "nome": "arco vivo"
+    },
+    {
+      "nome": "armadura de couro +2 resiliente"
+    }
+  ],
+  "defesas": {
+    "CA": 39,
+    "salvamentos": {
+      "fortitude": 26,
+      "reflexos": 32,
+      "vontade": 28
+    },
+    "PV": 340,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Ligação da Caçada Selvagem",
+      "acao": "aura",
+      "traços": ["adivinhação", "aura", "mágico"],
+      "descricao": "Como cão da caçada selvagem, mas concede a habilidade de mirar criaturas ocultadas com Golpes à distância sem precisar ser bem-sucedido em um teste simples CD 5."
+    },
+    {
+      "nome": "Visão Verde",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Cooperação Instintiva",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Olhar Selvagem",
+      "acao": "aura",
+      "traços": ["aura", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem, mas CD 34."
+    },
+    {
+      "nome": "Arco Vivo",
+      "acao": "automatica",
+      "traços": ["primal", "transmutação"],
+      "descricao": "O arqueiro da caçada selvagem carrega uma manifestação do arco e flecha na forma de um arco vivo. Esta arma funciona como um arco longo composto +2 impactante maior congelante enquanto for empunhado pelo arqueiro da caçada selvagem, mas, nas mãos de qualquer outra criatura, o arco vivo funciona como um arco longo composto não mágico comum. Um arqueiro da caçada selvagem pode manifestar um arco vivo substituto, se o anterior for perdido ou destruído, realizando uma atividade de um minuto que tem o traço concentração. Um arco vivo parece ser feito de madeira e folhas que ficam com cores outonais, que brotam e caiem constantemente dele; a corda do arco é uma linha verde brilhante de energia. Um arqueiro da caçada selvagem espontaneamente gera flechas conforme necessário na aljava ao usar um arco vivo."
+    },
+    {
+      "nome": "Disparos Buscadores",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Os Golpes à distância e magias com testes de ataque à distância do arqueiro da caçada selvagem ignoram a condição ocultado do alvo."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 7.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "chifres",
+        "acao": "one-action",
+        "traços": ["ágil", "mágico"],
+        "modificador": 30,
+        "dano": "3d12+12",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "arco vivo",
+        "acao": "one-action",
+        "traços": ["alcance 30 metros", "mágico", "mortal d10", "voleio 9 metros"],
+        "modificador": 32,
+        "dano": "3d8+12",
+        "tipo_dano": "perfurante",
+        "efeitos": ["1d6 de frio"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 37,
+    "modificador_ataque": 29,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["desintegrar", "raio polar"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["dedo da morte", "explosão de eclipse", "nuvem mortal", "toque vampírico"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["conto das rochas"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 8,
+        "magias": ["falar com animais", "falar com plantas"]
+      }
+    ],
+    "a_vontade": ["intuir direção"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Infundir Flecha",
+      "acao": "three-actions",
+      "traços": ["mágico"],
+      "descricao": "O arqueiro da caçada selvagem Conjura uma Magia com uma distância de toque e depois faz um Golpe à distância com o arco vivo. Se acertar uma criatura com este Golpe, a criatura também é alvo dos efeitos da magia. Se o Golpe errar, a magia é desperdiçada. Alternativamente, o arqueiro da caçada selvagem pode Conjurar uma Magia que afeta uma área e depois fazer um Golpe à distância com o arco vivo. Se acertar uma criatura com este Golpe, a magia tem o efeito centrado na criatura e a criatura atingida sofre –2 de penalidade de circunstância em qualquer salvamento contra o efeito da magia. Se o Golpe errar, a magia é desperdiçada."
+    },
+    {
+      "nome": "Olhar Focado",
+      "acao": "one-action",
+      "traços": ["concentração", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Atirador élite da Caçada Selvagem com habilidades mágicas ofensivas",
+    "Arco Vivo único que funciona como arco +2 impactante maior congelante",
+    "Infundir Flecha permite combinar magias com ataques à distância",
+    "Magias primais letais incluindo desintegrar e dedo da morte (CD 37)",
+    "Disparos Buscadores ignoram condição ocultado em ataques à distância",
+    "Reflexos excepcionais (+32) e CA muito alta (39)",
+    "Percepção máxima (+30) com visão verdadeira e múltiplos sentidos",
+    "Habilidade de suporte para aliados mirar criaturas ocultadas",
+    "Perícias sociais e físicas excepcionais (Intimidação +32, Furtividade +32)",
+    "Fraqueza a ferro frio (15) característica de fadas"
+  ]
+},
+  {
+  "nome": "Cavalo da Caçada Selvagem",
+  "nivel": 15,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CN",
+    "tamanho": "Grande",
+    "outros_tracos": ["caçada selvagem", "fada"]
+  },
+  "percepcao": {
+    "modificador": 29,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão no escuro maior", "visão verde"]
+  },
+  "idiomas": ["comum", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 27
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 31
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 29
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 4,
+    "con": 6,
+    "int": -1,
+    "sab": 6,
+    "car": 4
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "falar com animais",
+      "descricao": ""
+    },
+    {
+      "nome": "falar com plantas",
+      "descricao": ""
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 37,
+    "salvamentos": {
+      "fortitude": 27,
+      "reflexos": 23,
+      "vontade": 29
+    },
+    "PV": 320,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Ligação da Caçada Selvagem",
+      "acao": "aura",
+      "traços": ["adivinhação", "aura", "mágico"],
+      "descricao": "Como cão da caçada selvagem, mas concede +3 metros de bônus de estado na Velocidade de criaturas da caçada selvagem, com exceção de cavalos da caçada selvagem."
+    },
+    {
+      "nome": "Visão Verde",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Cooperação Instintiva",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Sinergia do Cavaleiro",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Se o cavalo da caçada selvagem tiver um cavaleiro da caçada selvagem, o dano de Golpes causado ao cavalo ou ao cavaleiro é dividido igualmente entre os dois."
+    },
+    {
+      "nome": "Olhar Selvagem",
+      "acao": "aura",
+      "traços": ["aura", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem, mas CD 33."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 24,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 24
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "casco",
+        "acao": "one-action",
+        "traços": ["ágil", "mágico"],
+        "modificador": 30,
+        "dano": "3d10+12",
+        "tipo_dano": "contundente",
+        "efeitos": ["1d8 persistente de sangramento"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 36,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["deslocamento entre árvores (somente em si e um cavaleiro voluntário)", "liberdade de movimento"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["conto das rochas"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 8,
+        "magias": ["falar com animais", "falar com plantas"]
+      }
+    ],
+    "a_vontade": ["intuir direção", "mão mística"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Pinote",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "CD 36"
+    },
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Médio ou menor, casco, CD 36"
+    },
+    {
+      "nome": "Cascos Desnorteantes",
+      "acao": "two-actions",
+      "traços": ["auditivo", "aura", "emoção", "encantamento", "primal"],
+      "descricao": "O cavalo da caçada selvagem bate os cascos e empina, criando o som de centenas de cavalos aparentemente se aproximando de todas as direções. Cada criatura a até 18 metros precisa fazer um salvamento de Vontade CD 33. Sucesso crítico A criatura não é afetada e fica imune a Cascos Desnorteantes por 1 hora. Sucesso A criatura fica distraída pelo som. Até o início do seu próximo turno, se tentar usar uma reação, ela deve ser bem-sucedido em um teste simples CD 5 ou a reação é interrompida, desperdiçada sem nenhum efeito. Falha A criatura fica desnorteada com o som, com os mesmos efeitos de sucesso, mas também fica confusa 1 por 1 rodada. Falha crítica Como na falha, mas o efeito de confusão persiste por 1 minuto ou até a criatura se recuperar por outros meios."
+    },
+    {
+      "nome": "Olhar Focado",
+      "acao": "one-action",
+      "traços": ["concentração", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem"
+    },
+    {
+      "nome": "Urro Ensurdecedor",
+      "acao": "one-action",
+      "traços": ["auditivo", "evocação", "primal", "sônico"],
+      "descricao": "O cavalo da caçada selvagem emite um urro estrondoso em um cone de 4,5 metros. Criaturas na área sofrem 16d6 de dano sônico (Fortitude básica CD 36, mais surdo por 1 minuto em uma falha crítica). O cavalo da caçada selvagem não pode usar Urro Ensurdecedor novamente por 1d4 rodadas"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Montaria lendária da Caçada Selvagem com mobilidade excepcional",
+    "Velocidade extremamente alta (24m) tanto terrestre quanto aérea",
+    "Sinergia do Cavaleiro que divide dano igualmente entre cavalo e cavaleiro",
+    "Urro Ensurdecedor com dano massivo de sônico (16d6, CD 36 Fortitude)",
+    "Cascos Desnorteantes que causa confusão e interrompe reações (CD 33 Vontade)",
+    "Magias de utilidade como deslocamento entre árvores e liberdade de movimento",
+    "Ataque de casco causa dano persistente de sangramento (1d8)",
+    "Aura que concede +3m de velocidade para aliados da Caçada",
+    "Vontade excepcionalmente alta (+29) para resistência mental",
+    "Fraqueza característica a ferro frio (15) típica de fadas"
+  ]
+},
+  {
+  "nome": "Athach Elite",
+  "nivel": 12,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "CM",
+    "tamanho": "Enorme",
+    "outros_tracos": ["gigante", "humanoide"]
+  },
+  "percepcao": {
+    "modificador": 24,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["Jotun"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 27
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 23
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 3,
+    "con": 7,
+    "int": -1,
+    "sab": 4,
+    "car": 3
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 35,
+    "salvamentos": {
+      "fortitude": 27,
+      "reflexos": 22,
+      "vontade": 23
+    },
+    "PV": 270,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Um athach recebe uma reação extra no início de cada um de seus turnos, que só pode ser usada para fazer um Ataque de Oportunidade com sua garra. Ele não pode usar mais de um Ataque de Oportunidade acionado por uma mesma ação."
+    },
+    {
+      "nome": "Pegar Rocha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Garra Rápida",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O athach acerta uma criatura com dois Golpes de punho; Efeito O athach faz um Golpe com garra sem penalidade por ataques múltiplos contra a criatura atingida por seus Golpes de punho. Este ataque de garra não aumenta a penalidade por ataques múltiplos do athach."
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 27,
+        "dano": "3d12+15",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      },
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": [],
+        "modificador": 27,
+        "dano": "3d8+15",
+        "tipo_dano": "perfurante",
+        "efeitos": ["peçonha de athach"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil"],
+        "modificador": 27,
+        "dano": "3d8+15",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 27,
+        "dano": "3d8+15",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Peçonha de Athach",
+      "acao": "automatica",
+      "traços": ["veneno"],
+      "descricao": "Salvamento Fortitude CD 34; Duração Máxima 6 rodadas; Estágio 1 2d6+2 de dano de veneno e enfraquecido 1; Estágio 2 2d6+2 de dano de veneno e enfraquecido 2; Estágio 3 2d6+2 de dano de veneno e enfraquecido 3."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Gigante enorme com múltiplos ataques e veneno debilitante",
+    "Ataque de Oportunidade especial com reação extra para ataques de garra",
+    "Peçonha poderosa que causa dano de veneno e condição enfraquecido (CD 34 Fortitude)",
+    "Quatro ataques corpo a corpo diferentes com modificadores altos (+27)",
+    "Ataque à distância com rochas de longo alcance (36m) e dano significativo",
+    "Reação Garra Rápida que permite ataque extra após acertar dois punhos",
+    "Velocidade impressionante para criatura enorme (12m)",
+    "PV altos (270) e Fortitude excelente (+27) para nível 12",
+    "Fraqueza tática a ferro frio (10) que pode ser explorada",
+    "Alcance estendido de 3m em ataques de punho"
+  ]
+},
+  {
+  "nome": "Tomador de Crânios",
+  "nivel": 18,
+  "traços": {
+    "raridade": "incomum",
+    "tendencia": "NM",
+    "tamanho": "Enorme",
+    "outros_tracos": ["morto-vivo"]
+  },
+  "percepcao": {
+    "modificador": 33,
+    "sentidos_especiais": ["visão no escuro", "visão verdadeira"]
+  },
+  "idiomas": ["Necril"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 34
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 32
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 35
+    },
+    {
+      "nome": "Religião",
+      "modificador": 30
+    },
+    {
+      "nome": "Saber de Esqueletos",
+      "modificador": 30
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 6,
+    "con": 6,
+    "int": 2,
+    "sab": 8,
+    "car": 7
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 42,
+    "salvamentos": {
+      "fortitude": 31,
+      "reflexos": 33,
+      "vontade": 35
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "positivo",
+        "valor": 1
+      }
+    ],
+    "PV": 300,
+    "imunidades": ["doença", "efeitos de morte", "frio", "inconsciente", "paralisado", "veneno"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "cortante",
+        "valor": 15
+      },
+      {
+        "tipo": "perfurante",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Saber de Esqueletos",
+      "acao": "automatica",
+      "traços": ["adivinhação", "divino"],
+      "descricao": "Um tomador de crânios usa as memórias de criaturas cujos ossos formam o corpo dele. Isto o fornece a perícia Saber de Esqueletos, que ele pode usar para Recordar Conhecimento de qualquer tipo. Além disso, ele pode falar e compreender todos os idiomas conhecidos pelas criaturas cujos ossos formam o corpo dele (normalmente incluindo Comum e o idioma regional da região nativa do tomador de crânios). O tomador de crânios pode usar Saber de Esqueletos como o teste de perícia primário para o ritual saber de lendas (Livro Básico 415) e pode conjurar saber de lendas sem conjuradores secundários."
+    },
+    {
+      "nome": "Tempestade de Estilhaços",
+      "acao": "aura",
+      "traços": ["ar", "aura", "divino", "necromancia"],
+      "descricao": "3 metros. Uma nuvem de estilhaços de ossos envolve o tomador de crânios. Quando uma criatura se mover para a emanação ou começar o turno dela na aura, tempestade de estilhaços tenta neutralizar qualquer efeito de proteção contra morte na criatura (+30 de modificador de neutralização) e causa 4d6 de dano cortante e 4d6 de dano negativo à criatura, com um salvamento básico de Reflexos CD 40."
+    },
+    {
+      "nome": "Drenar Energia",
+      "acao": "automatica",
+      "traços": ["divino", "necromancia"],
+      "descricao": "Quando um tomador de crânios atingir um Golpe corpo a corpo, o alvo deve obter sucesso em um salvamento de Fortitude CD 40 ou fica condenado 1 e drenado 2."
+    },
+    {
+      "nome": "Tomador de Ossos",
+      "acao": "automatica",
+      "traços": ["divino", "necromancia"],
+      "descricao": "Sempre que uma criatura morrer a até 18 metros de um tomador de crânios, o tomador de crânios traga uma parte dos ossos da criatura para a tempestade de estilhaços dele. A criatura deve obter sucesso em um salvamento de Vontade CD 40 ou se ergue como um campeão esquelético (página 267) em 1d4 rodadas. Estes campeões esqueléticos são controlados pelo tomador de crânios."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 18
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros", "mágico", "mortal 2d12"],
+        "modificador": 35,
+        "dano": "3d10+14",
+        "tipo_dano": "perfurante",
+        "efeitos": ["3d6 negativo", "drenar energia"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros", "mágico", "mortal 2d12"],
+        "modificador": 35,
+        "dano": "3d6+14",
+        "tipo_dano": "cortante",
+        "efeitos": ["3d6 negativo", "drenar energia"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "azagaia de osso",
+        "acao": "one-action",
+        "traços": ["arremesso 30 metros", "mágico"],
+        "modificador": 33,
+        "dano": "3d8+6",
+        "tipo_dano": "perfurante",
+        "efeitos": ["3d6 negativo"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "divino",
+    "CD": 40,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["dedo da morte", "ressecamento horrível", "ventos punitivos"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 6,
+        "magias": ["visão verdadeira"]
+      }
+    ],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [
+    {
+      "nome": "saber de lendas",
+      "CD": 40
+    }
+  ],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Chão Estilhaçado",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "O tomador de crânios faz ossos estilhaçados surgirem de todas as superfícies sólidas em uma emanação de 30 metros, exceto por superfícies de pedra trabalhada. Uma criatura movendo-se pelos ossos sofre 10 de dano perfurante e 10 de dano negativo para cada 1,5 metros de movimento. A primeira vez a cada rodada em que uma criatura sofrer dano perfurante destes ossos estilhaçados, ela deve obter sucesso em um salvamento de Reflexos ou sofre –3 metros de penalidade de circunstância em todas as Velocidades por 10 minutos, ou –4,5 metros de penalidade de circunstância por 24 horas em uma falha crítica. Os ossos permanecem no lugar até o tomador de crânios usar esta ação novamente ou os ossos serem manualmente removidos, o que leva 10 minutos para cada quadrado de 1,5 metros."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Morto-vivo lendário que controla ossos e ressuscita esqueletos",
+    "Tempestade de Estilhaços que neutraliza proteções contra morte e causa dano duplo",
+    "Tomador de Ossos que ressuscita criaturas mortas como campeões esqueléticos controlados",
+    "Chão Estilhaçado que cria terreno perigoso e reduz velocidade dos inimigos",
+    "Drenar Energia que causa condenado 1 e drenado 2 em ataques corpo a corpo (CD 40)",
+    "Magias divinas letais incluindo dedo da morte (CD 40)",
+    "Ritual saber de lendas com Saber de Esqueletos como perícia primária",
+    "Voo rápido (18m) e mobilidade superior",
+    "Resistências a cortante e perfurante (15) com múltiplas imunidades",
+    "Intimidação excepcional (+35) e modificadores de ataque máximos (+35)"
+  ]
+},
+  {
+  "nome": "Mamute",
+  "nivel": 10,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "N",
+    "tamanho": "Enorme",
+    "outros_tracos": ["animal"]
+  },
+  "percepcao": {
+    "modificador": 18,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão na penumbra"]
+  },
+  "idiomas": [],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 22
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 19
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 1,
+    "con": 5,
+    "int": -4,
+    "sab": 1,
+    "car": -2
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 29,
+    "salvamentos": {
+      "fortitude": 21,
+      "reflexos": 15,
+      "vontade": 18
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "frio",
+        "valor": 2
+      }
+    ],
+    "PV": 190,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação ao Frio",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O mamute reduz os efeitos que ele sofre de ambientes frios em um passo."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 13.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "presa longa",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros"],
+        "modificador": 22,
+        "dano": "3d8+12",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      },
+      {
+        "nome": "tromba",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros"],
+        "modificador": 22,
+        "dano": "",
+        "tipo_dano": "",
+        "efeitos": ["agarrar com tromba"]
+      },
+      {
+        "nome": "pata",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 22,
+        "dano": "2d10+12",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Agarrar com Tromba",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como elefante."
+    },
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Grande ou menor, pata, CD 28"
+    },
+    {
+      "nome": "Presas Longas Duplas",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "O mamute realiza dois Golpes com presa longa, cada um contra uma criatura diferente. Isto conta como um ataque para a penalidade por ataques múltiplos do mamute, mas a penalidade aumenta somente após os dois ataques serem realizados."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Animal pré-histórico massivo adaptado a ambientes frios",
+    "Presas Longas Duplas permite atacar duas criaturas com uma ação",
+    "Alcance estendido em todos os ataques (3m-4.5m)",
+    "Adaptação ao Frio e bônus contra efeitos de frio (+2 salvamentos)",
+    "Atropelar para controle de área contra criaturas Grandes ou menores",
+    "Tromba para agarrar criaturas à distância",
+    "Velocidade impressionante para criatura enorme (13.5m)",
+    "Atletismo robusto (+22) e Fortitude alta (+21)",
+    "Múltiplas opções de ataque com modificadores consistentes (+22)",
+    "Animal típico com baixa inteligência mas força física formidável"
+  ]
+},
+  {
+  "nome": "Gigante da Colina Carniceiro",
+  "nivel": 14,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CE",
+    "tamanho": "Grande",
+    "outros_tracos": ["terra", "gigante", "humanoide"]
+  },
+  "percepcao": {
+    "modificador": 25,
+    "sentidos_especiais": ["visão na penumbra"]
+  },
+  "idiomas": ["comum", "jotúnico"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 28
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 24
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 25
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 4,
+    "con": 5,
+    "int": -2,
+    "sab": 5,
+    "car": 0
+  },
+  "habilidades_interacao": [],
+  "itens": [
+    {
+      "nome": "gibão de peles +1 resiliente"
+    },
+    {
+      "nome": "machadinha +1 impactante"
+    },
+    {
+      "nome": "machado de batalha +2 impactante"
+    },
+    {
+      "nome": "saco com 5 rochas"
+    }
+  ],
+  "defesas": {
+    "CA": 36,
+    "salvamentos": {
+      "fortitude": 28,
+      "reflexos": 23,
+      "vontade": 26
+    },
+    "PV": 260,
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Ataque Furtivo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O gigante da colina carniceiro causa 2d6 de dano de precisão adicional a criaturas desprevenidas."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Pegar Rocha",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    }
+  ],
+  "velocidade": {
+    "principal": 10.5,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "machado de batalha",
+        "acao": "one-action",
+        "traços": ["amplitude"],
+        "modificador": 30,
+        "dano": "2d8+16",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "machadinha",
+        "acao": "one-action",
+        "traços": ["ágil", "amplitude", "arremesso 3 metros"],
+        "modificador": 30,
+        "dano": "2d6+16",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 26,
+        "dano": "3d4+16",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 31,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 7,
+        "magias": ["emaranhar", "passos largos"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["pele de árvore"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Ameaçar Presa",
+      "acao": "one-action",
+      "traços": ["concentração"],
+      "descricao": "O gigante da colina carniceiro designa até duas criaturas que ele possa ver e ouvir ou uma que ele esteja Rastreando, como presa. Ele recebe +2 de bônus de circunstância em testes de Percepção para Buscar a presa e em testes de Intimidação para Desmoralizar a presa. Este efeito dura até o gigante da colina carniceiro usar Ameaçar Presa novamente."
+    },
+    {
+      "nome": "Carnificina Dupla",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "Frequência uma vez por rodada; Requerimentos O gigante da colina carniceiro está empunhando duas armas corpo a corpo, cada uma em uma mão; Efeito O gigante da colina carniceiro usa os dois machados contra um único alvo. Ele faz dois Golpes contra a presa ameaçada, um com cada arma requerida. Se os dois acertarem a mesma presa ameaçada, some o dano para propósitos de resistências e fraquezas. Além disso, se os dois golpes acertarem, a presa ameaçada fica desprevenida até o início do próximo turno do gigante da colina carniceiro. Aplique a penalidade por ataques múltiplos do gigante da colina carniceiro normalmente."
+    },
+    {
+      "nome": "Oscilação Ampla",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "O gigante da colina realiza um único Golpe com clava pesada e compara o resultado da rolagem às CA de até dois adversários no alcance dele. Isto conta como dois ataques para a penalidade por ataques múltiplos do gigante da colina."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Gigante caçador especializado em perseguição e combate com duas armas",
+    "Carnificina Dupla que permite dois ataques em uma ação e deixa alvo desprevenido",
+    "Ataque Furtivo que causa 2d6 dano extra contra desprevenidos",
+    "Ameaçar Presa concede bônus contra alvos designados (+2 Percepção/Intimidação)",
+    "Equipamento aprimorado: machado de batalha +2 e armadura resiliente",
+    "Magias primais de utilidade (emaranhar, passos largos, pele de árvore)",
+    "Atletismo excepcional (+28) e modificadores de ataque altos (+30)",
+    "Combinação letal com Oscilação Ampla para atingir múltiplos alvos",
+    "Versatilidade em combate com opções corpo a corpo e à distância",
+    "Foco tático em eliminar presas específicas com eficiência"
+  ]
+},
+  {
+  "nome": "Guardião Radiante",
+  "nivel": 17,
+  "traços": {
+    "raridade": "incomum",
+    "tendencia": "N",
+    "tamanho": "Imenso",
+    "outros_tracos": ["constructo"]
+  },
+  "percepcao": {
+    "modificador": 30,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": ["qualquer um idioma antigo (como Jistkano)"],
+  "pericias": [
+    {
+      "nome": "Arcanismo",
+      "modificador": 32
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Ocultismo",
+      "modificador": 32
+    },
+    {
+      "nome": "Saber de Astronomia",
+      "modificador": 36
+    }
+  ],
+  "atributos": {
+    "for": 9,
+    "des": 6,
+    "con": 5,
+    "int": 6,
+    "sab": 5,
+    "car": 0
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 40,
+    "salvamentos": {
+      "fortitude": 32,
+      "reflexos": 29,
+      "vontade": 28
+    },
+    "PV": 300,
+    "imunidades": ["ataques não-letais", "condenado", "doença", "drenado", "efeitos de morte", "enjoado", "fatigado", "inconsciente", "necromancia", "paralisado", "sangramento", "veneno"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "físico",
+        "valor": 15,
+        "notas": "exceto adamante"
+      },
+      {
+        "tipo": "mental",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Aura do Porteiro",
+      "acao": "aura",
+      "traços": ["abjuração", "aura", "ocultista"],
+      "descricao": "18 metros. Uma criatura que use uma habilidade de teleporte dentro da emanação da aura ou que entre nela através de uma habilidade de teleporte deve obter sucesso em um salvamento de Vontade CD 38 ou fica enjoada 1 e tem o seu destino mudado para um ponto a escolha do guardião radiante, dentro da emanação. Caso obtenha sucesso no salvamento, a criatura chega aonde pretendia, mas ainda está enjoada 1."
+    },
+    {
+      "nome": "Pancada Radiante",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Quando uma criatura é atingida pelo Golpe de martelo do guardião radiante, um flash de energia radiante tenta ancorar a criatura no lugar. A criatura deve tentar um salvamento de Vontade CD 38; em uma falha, a criatura não pode usar efeitos de teleportação por 1 minuto. Em uma falha crítica, a criatura também fica permanentemente cega."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 9
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "martelo",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "empurrar", "mágico"],
+        "modificador": 32,
+        "dano": "3d12+15",
+        "tipo_dano": "contundente",
+        "efeitos": ["pancada radiante"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "raio radiante",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "mágico"],
+        "modificador": 32,
+        "dano": "4d10",
+        "tipo_dano": "força",
+        "efeitos": []
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "ocultista",
+    "CD": 38,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 9,
+        "magias": ["teleporte"]
+      },
+      {
+        "nivel": 8,
+        "magias": ["padrão cintilante", "transposição coletiva"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["rajada prismática", "tranca dimensional"]
+      },
+      {
+        "nivel": 5,
+        "magias": ["porta dimensional"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["porta dimensional"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Planetário",
+      "acao": "one-action",
+      "traços": ["concentração"],
+      "descricao": "Até que aja, o guardião radiante aparenta ser um planetário (ou um grande mecanismo similar, como um telescópio). Ele tem um resultado automático de 53 em testes e CDs de Dissimulação para passar convincentemente por tal máquina."
+    },
+    {
+      "nome": "Rajada Radiante",
+      "acao": "two-actions",
+      "traços": ["evocação", "força", "ocultista"],
+      "descricao": "O guardião radiante solta um cone de 15 metros de energia brilhante que causa 10d12 de dano de força (Reflexos básico CD 38). O guardião radiante não pode usar a Rajada Radiante por 1d4 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Constructo astronômico imenso com controle sobre teleportação e espaço",
+    "Aura do Porteiro que controla e redireciona teleportes (18m, CD 38 Vontade)",
+    "Pancada Radiante que impede teleportação e pode cegar permanentemente",
+    "Rajada Radiante com dano massivo de força (10d12, CD 38 Reflexos)",
+    "Magias ocultistas de alto nível incluindo teleporte de 9º nível (CD 38)",
+    "Habilidade Planetário para se disfarçar como mecanismo astronômico",
+    "Múltiplas imunidades de constructo e resistências a dano físico/mental",
+    "Saber de Astronomia excepcional (+36) e perícias arcanas avançadas",
+    "Alcance estendido em todos os ataques (4.5m)",
+    "Voo limitado mas com mobilidade tridimensional"
+  ]
+},
+  {
+  "nome": "Golem de Adamante Elite",
+  "nivel": 18,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "N",
+    "tamanho": "Enorme",
+    "outros_tracos": ["acéfalo", "constructo", "golem"]
+  },
+  "percepcao": {
+    "modificador": 28,
+    "sentidos_especiais": ["visão no escuro"]
+  },
+  "idiomas": [],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 40
+    }
+  ],
+  "atributos": {
+    "for": 9,
+    "des": -1,
+    "con": 9,
+    "int": -5,
+    "sab": 0,
+    "car": -5
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 44,
+    "salvamentos": {
+      "fortitude": 35,
+      "reflexos": 29,
+      "vontade": 31
+    },
+    "PV": 245,
+    "habilidades_PV": ["modo de reparo"],
+    "imunidades": ["ataques não-letais", "condenado", "cura", "doença", "drenado", "efeitos de morte", "eletricidade", "enjoado", "fatigado", "inconsciente", "magia (veja abaixo)", "mental", "necromancia", "paralisado", "sangramento", "veneno"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "físico",
+        "valor": 20,
+        "notas": "exceto adamante vorpal"
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Golem Antimagia",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "ferido por ácido (9d10, 2d10 de área ou dano persistente); curado por fogo (área 2d10 PV); lento por eletricidade"
+    },
+    {
+      "nome": "Modo de Reparo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Quando o golem de adamante chega a 0 PV, ele não é destruído. Em vez disso, ele entra em modo de reparo, durante o qual ele fica lento 1, não pode usar reações e só pode realizar a ação Autorreparo. Ao alcançar mais de 30 PV, ele pode usar qualquer tipo de ação e pode usar reações, embora permaneça lento 1 e não possa usar quaisquer reações até o início do próximo turno dele. Se um acerto crítico com uma arma de adamante vorpal reduzir o golem a 0 PV, ou se uma arma dessa atingi-lo enquanto ele ainda está com 0 PV, o golem é destruído."
+    },
+    {
+      "nome": "Vulnerável a Dissipação",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O golem pode ser afetado por disjunção e dissipar magia. Se afetado por uma magia dessas de 9º nível ou superior, o golem tem a resistência a dano físico dele reduzida para 15 e fica lento 1 (ou lento 2 se estiver em modo de reparo) por 1d4 rodadas. Durante este período, se o golem for reduzido a 0 PV enquanto já estiver no modo de reparo, ele é destruído."
+    },
+    {
+      "nome": "Golpe Destrutivo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Em um acerto crítico, o punho do golem de adamante quebra a armadura do alvo (se houver) em adição ao dano causado ao alvo. Se o alvo possuir um escudo erguido, em vez disso o golem quebra o escudo."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 9,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "mágico", "mortal 3d12"],
+        "modificador": 37,
+        "dano": "3d10+19",
+        "tipo_dano": "contundente",
+        "efeitos": ["Golpe Destrutivo"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Autorreparo",
+      "acao": "one-action",
+      "traços": ["manuseio"],
+      "descricao": "O golem se repara, recuperando 30 Pontos de Vida."
+    },
+    {
+      "nome": "Marcha Inexorável",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "O golem de adamante Anda até a Velocidade dele, empurrando para trás cada criatura cujo espaço ele entrar, causando dano a elas se tentarem parar o movimento dele. Uma criatura pode tentar barrar o caminho ao obter sucesso em um salvamento de Fortitude CD 47. Sucesso Crítico A criatura não sofre dano e a armadura dela não sofre dano. Sucesso O golem para o movimento dele e não pode entrar no quadrado da criatura. Falha A criatura resistindo sofre dano e a armadura dela sofre dano como se tivesse sido atingida pelo punho do golem de adamante."
+    },
+    {
+      "nome": "Respiradouro",
+      "acao": "one-action",
+      "traços": ["fogo"],
+      "descricao": "O golem ventila um cone de 9 metros de vapor superaquecido da forja interna dele. Isto causa 15d6+2 de dano de fogo a todas as criaturas no cone (Reflexos básico CD 42). O golem não pode usar Respiradouro novamente por 1d6 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Constructo de adamante praticamente indestrutível com regeneração",
+    "Modo de Reparo que previne destruição e permite autocura (30 PV por ação)",
+    "Resistência a dano físico extremamente alta (20, exceto adamante vorpal)",
+    "Marcha Inexorável que empurra e causa dano ao mover-se (CD 47 Fortitude)",
+    "Respiradouro com dano massivo de fogo (15d6+2, CD 42 Reflexos)",
+    "Golpe Destrutivo que quebra armaduras e escudos em críticos",
+    "Atletismo excepcional (+40) e modificador de ataque alto (+37)",
+    "Múltiplas imunidades incluindo magia, mental e efeitos de morte",
+    "Vulnerabilidades específicas: ácido (dano), fogo (cura), dissipação mágica",
+    "Alcance estendido de 4.5m nos ataques de punho"
+  ]
+},
+  {
+  "nome": "Guthallath Elite",
+  "nivel": 19,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "N",
+    "tamanho": "Imenso",
+    "outros_tracos": ["constructo"]
+  },
+  "percepcao": {
+    "modificador": 32,
+    "sentidos_especiais": ["visão no escuro", "visão verdadeira"]
+  },
+  "idiomas": [],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 27
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 42
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 2,
+    "con": 8,
+    "int": -4,
+    "sab": 0,
+    "car": -1
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 45,
+    "salvamentos": {
+      "fortitude": 40,
+      "reflexos": 34,
+      "vontade": 34
+    },
+    "PV": 345,
+    "imunidades": ["ataques não-letais", "condenado", "cura", "doença", "drenado", "efeitos de morte", "enjoado", "fatigado", "inconsciente", "magia (veja abaixo)", "necromancia", "paralisado", "sangramento", "veneno"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "físico",
+        "valor": 15,
+        "notas": "exceto adamante"
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Aura de Erosão",
+      "acao": "aura",
+      "traços": ["aura", "primal"],
+      "descricao": "36 metros. O guthallath erode a integridade física de tudo ao redor dele. Criaturas e objetos na emanação que não sejam o guthallath têm suas durezas e resistências reduzidas em 10. No começo do turno dela, criaturas na aura de erosão sofre 6d6 de dano contundente (Fortitude básico CD 41)."
+    },
+    {
+      "nome": "Imunidade a Magia",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O guthallath é imune a magias 6º nível ou inferior e aos efeitos ativados de itens mágicos de 13º nível ou inferior."
+    },
+    {
+      "nome": "Golpes Poderosos",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Se um guthallath acertar com um ataque e rolar um 19 natural na rolagem do d20, o ataque é um acerto crítico. Isto não surte efeito se o 19 fosse ser uma falha."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 12,
+    "outras": [
+      {
+        "tipo": "escavação",
+        "valor": 15
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "punho",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico", "mortal 3d12"],
+        "modificador": 40,
+        "dano": "4d12+20",
+        "tipo_dano": "contundente",
+        "efeitos": ["Atracar Aprimorado ou Impelir Aprimorado 6 metros"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "pata",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico", "mortal 3d12"],
+        "modificador": 40,
+        "dano": "4d8+20",
+        "tipo_dano": "contundente",
+        "efeitos": ["Tombar Aprimorado"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 39,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [
+      {
+        "nivel": 8,
+        "magias": ["visão verdadeira"]
+      },
+      {
+        "nivel": 3,
+        "magias": ["rapidez"]
+      }
+    ],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremesso Mortal",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "Requerimentos O guthallath possui uma criatura agarrada. Efeito O guthallath arremessa a criatura no ar, a 30 metros de altura e 15 metros de distância. Se a criatura arremessada aterrissar em outra criatura, a criatura na qual ela aterrissa sofre a mesma quantidade de dano contundente. A criatura na qual a outra está sendo jogada pode tentar um salvamento básico de Reflexos CD 43."
+    },
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Enorme ou menor, pata, CD 47"
+    },
+    {
+      "nome": "Feixes de Aniquilação",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "Um guthallath solta dois feixes de destruição a partir dos olhos dele. Cada feixe é uma linha de 36 metros. Tudo em qualquer das linhas sofre o efeito de ser atingido pela magia desintegrar de 10º nível (Fortitude CD 43). Não há efeito adicional em criaturas que estejam em qualquer área onde os feixes se sobrepõem. O guthallath não pode usar esta habilidade novamente por 1d4 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Constructo primal de destruição em massa com habilidades de erosão",
+    "Aura de Erosão massiva (36m) que reduz resistências e causa dano contundente (6d6, CD 41)",
+    "Feixes de Aniquilação que funcionam como desintegrar de 10º nível (CD 43 Fortitude)",
+    "Golpes Poderosos que transformam ataques de 19 natural em críticos",
+    "Arremesso Mortal que lança criaturas agarradas causando dano de queda em área",
+    "Imunidade a magias de 6º nível ou inferior e itens mágicos de nível 13 ou inferior",
+    "Atletismo excepcional (+42) e modificadores de ataque máximos (+40)",
+    "Alcance extremo de 6m em todos os ataques",
+    "Escavação superior (15m) para mobilidade subterrânea",
+    "Fortitude extremamente alta (+40) e PV robustos (345) para nível 19"
+  ]
+},
+  {
+  "nome": "Sard",
+  "nivel": 19,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CM",
+    "tamanho": "Imenso",
+    "outros_tracos": ["eletricidade", "planta", "tane"]
+  },
+  "percepcao": {
+    "modificador": 35,
+    "sentidos_especiais": ["sentido sísmico 36 metros", "visão na penumbra"]
+  },
+  "idiomas": ["Aklo", "Arbóreo", "Comum", "Silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 37
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 31
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 6,
+    "con": 6,
+    "int": 2,
+    "sab": 6,
+    "car": 6
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 43,
+    "salvamentos": {
+      "fortitude": 35,
+      "reflexos": 31,
+      "vontade": 33
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "magia",
+        "valor": 1
+      }
+    ],
+    "PV": 400,
+    "habilidades_PV": [
+      {
+        "nome": "cura acelerada",
+        "valor": 15
+      }
+    ],
+    "imunidades": ["eletricidade"],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": [
+      {
+        "tipo": "físico",
+        "valor": 15,
+        "notas": "exceto cortante"
+      },
+      {
+        "tipo": "fogo",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Aclimatação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O sard trata o plano em que estiver localizado como seu plano natal."
+    },
+    {
+      "nome": "Morte Estilhaçante",
+      "acao": "automatica",
+      "traços": ["eletricidade", "evocação", "primal"],
+      "descricao": "Quando um sard morre, seu corpo explode em uma emanação de 9 metros. Todas as criaturas na área sofrem 10d6 de dano de eletricidade e 10d6 de dano perfurante (Reflexos básico CD 43). Qualquer criatura que sofrer o dano perfurante também é exposta à peçonha do sard."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Maldição do Atingido por Relâmpagos",
+      "acao": "reaction",
+      "traços": ["maldição", "necromancia", "primal"],
+      "descricao": "Acionamento O sard está para causar dano a uma criatura que tem resistência a eletricidade; Efeito Um instante antes que o alvo sofra o dano de eletricidade do evento acionador, a eletricidade do sard brilha em vermelho. O alvo deve obter sucesso em um salvamento de Vontade CD 41 ou perde qualquer resistência a eletricidade que tenha até que a maldição seja cancelada."
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 7.5
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "tronco",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "fatal d12"],
+        "modificador": 37,
+        "dano": "4d6+18",
+        "tipo_dano": "contundente",
+        "efeitos": ["3d6 persistente de eletricidade"]
+      },
+      {
+        "nome": "galho",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 6 metros"],
+        "modificador": 37,
+        "dano": "4d8+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["peçonha de sard"]
+      },
+      {
+        "nome": "raiz",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 37,
+        "dano": "4d6+18",
+        "tipo_dano": "contundente",
+        "efeitos": ["1d6 eletricidade"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "espinho",
+        "acao": "one-action",
+        "traços": ["alcance 55 metros", "mortal d10", "primal", "propulsivo"],
+        "modificador": 35,
+        "dano": "4d4+16",
+        "tipo_dano": "perfurante",
+        "efeitos": ["peçonha de sard"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 41,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 9,
+        "magias": ["tempestade da vingança"]
+      },
+      {
+        "nivel": 8,
+        "magias": ["deslocamento entre árvores", "ventos punitivos"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["corrente de relâmpagos"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [
+    {
+      "nome": "controlar o clima",
+      "CD": 39,
+      "notas": "não requer conjuradores secundários"
+    }
+  ],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Enorme ou menor, raiz, CD 39"
+    },
+    {
+      "nome": "Saraivada de Espinhos",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O sard faz até quatro Golpes de espinho, cada um contra um alvo diferente, mas a penalidade por ataques múltiplos do sard só aumenta após todos os ataques serem realizados."
+    },
+    {
+      "nome": "Peçonha de Sard",
+      "acao": "automatica",
+      "traços": ["primal", "veneno", "virulento"],
+      "descricao": "Salvamento Fortitude CD 41; Duração Máxima 10 rodadas; Estágio 1 2d6 de dano de eletricidade, 2d6 de dano de veneno e desajeitado 2 (1 rodada); Estágio 2 3d6 de dano de eletricidade, 3d6 de dano de veneno, desajeitado 2 e lento 1 (1 rodada); Estágio 3 4d6 de dano de eletricidade, 4d6 de dano de veneno, desajeitado 2 e lento 2 (1 rodada)"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Tane elemental elétrico com domínio sobre tempestades e natureza",
+    "Morte Estilhaçante que causa explosão massiva ao morrer (10d6 elétrico + 10d6 perfurante)",
+    "Maldição do Atingido por Relâmpagos que remove resistência a eletricidade (CD 41 Vontade)",
+    "Peçonha virulenta que combina dano elétrico, veneno e condições debilitantes",
+    "Magias primais poderosas incluindo tempestade da vingança (CD 41)",
+    "Saraivada de Espinhos que permite até 4 ataques à distância em uma ação",
+    "Cura acelerada (15) e PV muito altos (400) para sustentabilidade",
+    "Alcance estendido de 6m em ataques corpo a corpo e 55m em ataques à distância",
+    "Ritual controlar o clima sem necessidade de conjuradores secundários",
+    "Percepção excepcional (+35) com sentido sísmico de 36m"
+  ]
+},
+  {
+  "nome": "Babassura Primal",
+  "nivel": 19,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "N",
+    "tamanho": "Imenso",
+    "outros_tracos": ["fera", "tane"]
+  },
+  "percepcao": {
+    "modificador": 33,
+    "sentidos_especiais": ["faro (preciso) 36 metros", "visão no escuro"]
+  },
+  "idiomas": [],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 37
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 36
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 36
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 31
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 6,
+    "con": 6,
+    "int": -4,
+    "sab": 6,
+    "car": 6
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 44,
+    "salvamentos": {
+      "fortitude": 35,
+      "reflexos": 33,
+      "vontade": 31
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "magia",
+        "valor": 1
+      }
+    ],
+    "PV": 395,
+    "habilidades_PV": [
+      {
+        "nome": "cura acelerada",
+        "valor": 15
+      }
+    ],
+    "imunidades": ["confuso"],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O babassura trata o plano no qual se encontra como o plano de origem."
+    },
+    {
+      "nome": "Olhar Confuso",
+      "acao": "aura",
+      "traços": ["aura", "emoção", "encantamento", "mental", "primal"],
+      "descricao": "9 metros. Quando uma criatura terminar o turno dela na aura, deve ser bem-sucedido em um salvamento de Vontade CD 38 ou fica confusa por 1 hora."
+    },
+    {
+      "nome": "Recuperação Rápida",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O babassura se recupera com uma velocidade assombrosa. No final do seu turno, ele reduz o valor de uma condição debilitante que esteja sofrendo (com exceção de morrendo) em 1. Se estiver cego, fatigado, fugindo, ofuscado, petrificado ou surdo, ele pode ser bem-sucedido em um teste simples CD 16 para terminar uma destas condições à escolha; ele não pode usar recuperação rápida em outras condições que não possuem valores."
+    },
+    {
+      "nome": "Açoite",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "No início do seu turno, o babassura recebe uma reação adicional que pode ser usada apenas para fazer um Ataque de Oportunidade."
+    },
+    {
+      "nome": "Dor",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Os espinhos de um babassura cria ferimentos excepcionalmente dolorosos. A criatura ferida deve ser bem-sucedido em um salvamento de Fortitude CD 41 ou fica drenada 1 (drenada 2 em uma falha crítica) por causa desta dor. Outros Golpes do babassura que causarem dor aumentam o valor de drenado em 1 para cada falha no salvamento, até o máximo de drenado 4."
+    },
+    {
+      "nome": "Rastreador Implacável",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O babassura pode Rastrear enquanto se movimenta na velocidade completa."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Somente cauda."
+    }
+  ],
+  "velocidade": {
+    "principal": 15,
+    "outras": [
+      {
+        "tipo": "escalada",
+        "valor": 6
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "mágico"],
+        "modificador": 37,
+        "dano": "4d12+18",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros", "mágico"],
+        "modificador": 37,
+        "dano": "4d8+18",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "cauda",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "mágico", "mortal d12"],
+        "modificador": 37,
+        "dano": "4d4+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["dor"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "espinho",
+        "acao": "one-action",
+        "traços": ["alcance 30 metros"],
+        "modificador": 33,
+        "dano": "4d4+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["dor"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Investida Fruimosa",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O babassura Anda, ignorando terreno difícil, depois faz dois Golpes de garra no fim deste movimento."
+    },
+    {
+      "nome": "Olhar Focado",
+      "acao": "one-action",
+      "traços": ["emoção", "encantamento", "mental", "primal"],
+      "descricao": "O babassura olha fixamente para uma criatura que pode ver a até 9 metros. O alvo deve imediatamente fazer um salvamento de Vontade contra o olhar confuso do babassura. Após fazer o salvamento, a criatura fica imune a Olhar Confuso do babassura até o início do próximo turno dele."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Tane predador primal com habilidades de controle mental e recuperação acelerada",
+    "Olhar Confuso que causa confusão por 1 hora em área (9m, CD 38 Vontade)",
+    "Recuperação Rápida que reduz condições debilitantes automaticamente",
+    "Dor que acumula condição drenado até drenado 4 (CD 41 Fortitude)",
+    "Açoite concede reação extra para Ataques de Oportunidade com cauda",
+    "Investida Fruimosa que combina movimento e dois ataques ignorando terreno difícil",
+    "Furtividade excepcional (+36) para criatura imensa combinada com faro preciso (36m)",
+    "Cura acelerada (15) e PV muito altos (395) para sustentabilidade em combate",
+    "Velocidade superior (15m) com escalada para perseguição eficiente",
+    "Múltiplos ataques com alcance estendido (4.5m) e modificadores altos (+37)"
+  ]
+},
+  {
+  "nome": "Impulserpe",
+  "nivel": 17,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CN",
+    "tamanho": "Médio",
+    "outros_tracos": ["ar", "dragão"]
+  },
+  "percepcao": {
+    "modificador": 31,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão no escuro", "visão na névoa"]
+  },
+  "idiomas": ["comum", "dracônico", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 34
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 30
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 32
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 34
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 30
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 30
+    },
+    {
+      "nome": "Performance",
+      "modificador": 35
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 29
+    }
+  ],
+  "atributos": {
+    "for": 5,
+    "des": 9,
+    "con": 6,
+    "int": 5,
+    "sab": 6,
+    "car": 7
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 42,
+    "salvamentos": {
+      "fortitude": 29,
+      "reflexos": 34,
+      "vontade": 29
+    },
+    "PV": 280,
+    "imunidades": ["confuso", "controlado", "inconsciente", "paralisado", "petrificado"],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": [
+      {
+        "tipo": "mental",
+        "valor": 15
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Visão na Névoa",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Névoa e Bruma não atrapalham a visão de um impulserpe; ele ignora a condição ocultado por névoa e bruma."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Somente presas."
+    },
+    {
+      "nome": "presas frenéticas",
+      "acao": "reaction",
+      "traços": ["acuidade"],
+      "modificador": 35,
+      "dano": "3d12+12",
+      "tipo_dano": "perfurante",
+      "efeitos": []
+    },
+    {
+      "nome": "cauda chicoteante",
+      "acao": "reaction",
+      "traços": ["acuidade", "ágil", "alcance 3 metros"],
+      "modificador": 35,
+      "dano": "3d8+12",
+      "tipo_dano": "cortante",
+      "efeitos": []
+    },
+    {
+      "nome": "Cauda Intrometida",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O impulserpe causa dano a uma criatura com o Golpe de cauda chicoteante; Efeito Ele pode tentar Derrubar, Desarmar ou Empurrar a criatura atingida."
+    }
+  ],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 18
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "arcano",
+    "CD": 38,
+    "modificador_ataque": 30,
+    "magias": [
+      {
+        "nivel": 9,
+        "magias": ["duplicar adversário", "nuvem mortal"]
+      },
+      {
+        "nivel": 8,
+        "magias": ["cena ilusória", "padrão cintilante"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["distorcer mente", "rajada prismática"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["luzes dançantes", "mensagem", "projétil telecinético", "som fantasma"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Sopro Entorpecente",
+      "acao": "two-actions",
+      "traços": ["arcano", "encantamento", "mental"],
+      "descricao": "O impulserpe exala uma bruma magenta cintilante em um cone de 12 metros. Criaturas na área devem fazer um salvamento de Vontade CD 38, pois a mente fica dominada por um súbito alvoroço de memórias falsas (e normalmente desagradáveis), sofrendo 10d12 de dano mental dependendo do salvamento. O impulserpe não pode usar sopro entorpecente novamente por 1d4 rodadas. Sucesso crítico A criatura fica delineada em pó brilhante, anulando qualquer invisibilidade em efeito por 1 rodada e não sofre dano. Sucesso A criatura sofre metade do dano e a invisibilidade é anulada por 2 rodadas. Falha A criatura sofre o dano inteiro, fica ofuscada por 1 minuto e a invisibilidade dela é anulada por 1 minuto. Falha crítica A criatura sofre o dobro do dano, fica cega por 1 rodada, ofuscada por 1 minuto e a invisibilidade dela é anulada por 1 minuto."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Dragão do ar especializado em ilusões e ataques reativos",
+    "Sopro Entorpecente com dano mental massivo (10d12) e efeitos visuais (CD 38 Vontade)",
+    "Múltiplos ataques reativos com modificadores muito altos (+35)",
+    "Magias arcanas de alto nível incluindo duplicar adversário (CD 38)",
+    "Performance excepcional (+35) combinada com Furtividade superior (+34)",
+    "Cauda Intrometida para manobras de combate como derrubar e desarmar",
+    "Visão na Névoa que ignora ocultação por névoa e bruma",
+    "Reflexos excepcionais (+34) e CA muito alta (42)",
+    "Voo rápido (18m) para mobilidade aérea superior",
+    "Resistência mental (15) e múltiplas imunidades a condições mentais"
+  ]
+},
+  {
+  "nome": "Ankou Elite",
+  "nivel": 14,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "OM",
+    "tamanho": "Grande",
+    "outros_tracos": ["fada"]
+  },
+  "percepcao": {
+    "modificador": 27,
+    "sentidos_especiais": ["sentido vital 36 metros", "visão na penumbra"]
+  },
+  "idiomas": ["Aklo", "Comum", "Silvestre (incapaz de falar qualquer idioma)"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 30
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 27
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 30
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 29
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 24
+    }
+  ],
+  "atributos": {
+    "for": 7,
+    "des": 8,
+    "con": 4,
+    "int": 2,
+    "sab": 2,
+    "car": 5
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "telepatia",
+      "alcance": 30,
+      "descricao": "30 metros"
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 38,
+    "salvamentos": {
+      "fortitude": 25,
+      "reflexos": 30,
+      "vontade": 26
+    },
+    "PV": 300,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Ataque Furtivo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Os Golpes de um ankou causam 2d6+2 de dano de precisão extra em criaturas desprevenidas."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 19.5,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 19.5
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "ferro frio"],
+        "modificador": 31,
+        "dano": "3d6+17",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "asa",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "ferro frio"],
+        "modificador": 31,
+        "dano": "2d6+17",
+        "tipo_dano": "perfurante",
+        "efeitos": ["2d6 persistente de sangramento"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 36,
+    "modificador_ataque": 28,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["discernir localização"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["rajada prismática", "teleporte"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["visão verdadeira"]
+      },
+      {
+        "nivel": 4,
+        "magias": ["âncora dimensional", "escuridão"]
+      },
+      {
+        "nivel": 2,
+        "magias": ["silêncio"]
+      },
+      {
+        "nivel": 1,
+        "magias": ["raio do enfraquecimento"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["escuridão"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Duplo de Sombra",
+      "acao": "one-action a three-actions",
+      "traços": ["ilusão", "ocultismo", "sombra"],
+      "descricao": "Frequência uma vez por dia; Efeito Para cada ação gasta no uso desta habilidade, o ankou cria uma duplicata sombria de si mesmo em qualquer lugar a até 18 metros de si mesmo. Duplos de sombra têm as mesmas estatísticas de um ankou, mas têm o traço convocado, 86 Pontos de Vida, não podem usar Duplos de Sombra ou magias inatas, e têm +27 de bônus de ataque em seus Golpes. Um duplo de sombra que faça um salvamento contra um efeito de luz não pode conseguir um resultado melhor do que falha. Cada duplo permanece por 1 rodada, até que seja reduzido a 0 Pontos de Vida ou até que se mova mais longe do que 36 metros do ankou, o que ocorrer primeiro. A cada rodada posterior, o ankou pode gastar uma ação simples com o traço concentração para estender a duração das duplicatas sobreviventes em 1 rodada, até a duração máxima de 1 minuto. O ankou pode ver através dos olhos de todos os duplos de sombra ao mesmo tempo. Um personagem que Busque pode identificar um ankou como real ou duplo de sombra obtendo sucesso em um teste de Percepção CD 41."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Fada sombria élite com habilidades ilusórias avançadas",
+    "Duplo de Sombra que cria múltiplas cópias (até 3 com three-actions)",
+    "Magias primais poderosas incluindo magias de 8º nível (CD 36)",
+    "Voo extremamente rápido (19.5m) combinado com excelente mobilidade",
+    "Ataque Furtivo que causa 2d6+2 dano extra contra desprevenidos",
+    "Sentido vital para detectar criaturas vivas em 36m",
+    "Telepatia para comunicação silenciosa (30m)",
+    "Reflexos excepcionais (+30) e CA muito alta (38)",
+    "Ataques com ferro frio que exploram fraqueza de outras fadas",
+    "Habilidade de asa causa dano persistente de sangramento"
+  ]
+},
+  {
+  "nome": "Zomok",
+  "nivel": 16,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "N",
+    "tamanho": "Imenso",
+    "outros_tracos": ["dragão", "planta"]
+  },
+  "percepcao": {
+    "modificador": 28,
+    "sentidos_especiais": ["sentido sísmico (impreciso) 18 metros", "visão no escuro"]
+  },
+  "idiomas": ["Arbóreo", "Comum", "Silvestre", "Terran"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 27
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 29
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 29
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 30
+    }
+  ],
+  "atributos": {
+    "for": 9,
+    "des": 5,
+    "con": 9,
+    "int": 3,
+    "sab": 6,
+    "car": 6
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "falar com plantas",
+      "descricao": ""
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 39,
+    "salvamentos": {
+      "fortitude": 31,
+      "reflexos": 25,
+      "vontade": 28
+    },
+    "PV": 310,
+    "imunidades": ["atordoado", "paralisado", "sono", "veneno"],
+    "fraquezas": [
+      {
+        "tipo": "fogo",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 24
+      },
+      {
+        "tipo": "passos sem pegadas",
+        "valor": ""
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 4,5 metros", "mágico"],
+        "modificador": 33,
+        "dano": "3d12+17",
+        "tipo_dano": "perfurante",
+        "efeitos": ["Atracar Aprimorado"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros", "mágico"],
+        "modificador": 33,
+        "dano": "3d8+17",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "cauda",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico"],
+        "modificador": 33,
+        "dano": "3d10+17",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 34,
+    "modificador_ataque": 26,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["cativar (somente criaturas planta)"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["muralha de espinhos"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["gavinhas emaranhantes"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 4,
+        "magias": ["falar com plantas"]
+      },
+      {
+        "nivel": 1,
+        "magias": ["passo sem pegadas"]
+      }
+    ],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [
+    {
+      "nome": "chamado primal",
+      "CD": 34,
+      "notas": "não requer conjuradores secundários"
+    },
+    {
+      "nome": "desenvolver plantas",
+      "CD": 34
+    },
+    {
+      "nome": "esmorecimento",
+      "CD": 34
+    }
+  ],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Atropelar",
+      "acao": "three-actions",
+      "traços": [],
+      "descricao": "Enorme ou menor, cauda, CD 32"
+    },
+    {
+      "nome": "Engolir Inteiro",
+      "acao": "one-action",
+      "traços": ["ataque"],
+      "descricao": "Enorme, 3d12+9 contundente, Ruptura 35"
+    },
+    {
+      "nome": "Passo da Floresta",
+      "acao": "one-action",
+      "traços": ["conjuração", "cura", "necromancia", "primal", "teleporte"],
+      "descricao": "Frequência três vezes por dia; Efeito O zomok se teleporta com os efeitos de uma porta dimensional de 5º nível, mas o zomok deve começar e encerrar o efeito de teleporte em um terreno floresta. O zomok recupera 10d10 Pontos de Vida durante esse teleporte. Criaturas engolidas pelo zomok são deixadas para trás. O zomok não pode usar o Passo da Floresta novamente por 1d6+1 rodadas."
+    },
+    {
+      "nome": "Sopro Sepultante",
+      "acao": "two-actions",
+      "traços": ["evocação", "primal", "terra"],
+      "descricao": "O zomok expele um cone de 18 metros de terra e seixos causando 17d6 de dano contundente (Reflexos básico CD 34); criaturas prostradas sofrem –2 de penalidade de circunstância nesse salvamento. Criaturas tocando o solo que falharem no salvamento sofrem –3 metros de penalidade de circunstância nas Velocidades delas e ficam restringidas (Escapar CD 34) em uma falha crítica. O zomok não pode usar Sopro novamente por 1d4 rodadas. Os corpos de criaturas mortas pelo Sopro Sepultante se decompõe instantaneamente e são destruídos — eles só podem ser restaurados à vida por uma magia ou ritual de 7º nível ou superior que restaure vida. O equipamento da criatura não é danificado, mas fica enterrado sob 1,5 metro de terra."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Dragão vegetal com domínio sobre florestas e terra",
+    "Sopro Sepultante com dano massivo (17d6 contundente) e efeitos de enterro (CD 34)",
+    "Passo da Floresta que combina teleporte e cura (10d10 PV) em ambiente florestal",
+    "Engolir Inteiro com Ruptura muito alta (35) para criaturas Enormes",
+    "Múltiplos rituais incluindo chamado primal sem conjuradores secundários",
+    "Voo muito rápido (24m) combinado com passos sem pegadas",
+    "Magias primais de controle de área (muralha de espinhos, gavinhas emaranhantes)",
+    "Alcance estendido em ataques (4.5m-6m) com modificadores altos (+33)",
+    "Comunicação com plantas e múltiplos idiomas naturais",
+    "Vulnerabilidade tática a fogo (15) típica de criaturas vegetais"
+  ]
+},
+  {
+  "nome": "Corvofero Arauto",
+  "nivel": 19,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "NM",
+    "tamanho": "Médio",
+    "outros_tracos": ["fada"]
+  },
+  "percepcao": {
+    "modificador": 35,
+    "sentidos_especiais": ["visão no escuro maior", "visão verdadeira"]
+  },
+  "idiomas": ["aklo", "comum", "Infernal", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 34
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 36
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 35
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 36
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 37
+    },
+    {
+      "nome": "Saber (Guerra)",
+      "modificador": 33
+    },
+    {
+      "nome": "Saber (Heráldica)",
+      "modificador": 33
+    },
+    {
+      "nome": "Sociedade",
+      "modificador": 33
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 7,
+    "con": 6,
+    "int": 6,
+    "sab": 6,
+    "car": 8
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 44,
+    "salvamentos": {
+      "fortitude": 31,
+      "reflexos": 36,
+      "vontade": 33
+    },
+    "PV": 375,
+    "imunidades": ["drenado", "efeitos de morte", "maldições", "medo"],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 20
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Aura de Inquietação",
+      "acao": "aura",
+      "traços": ["aura", "emoção", "medo", "mental"],
+      "descricao": "9 metros, CD 35. Como presença aterradora, mais uma criatura assustada pela aura fica desconfiada: ela não conta nenhuma outra criatura como aliada e não pode Auxiliar ou flanquear. Em caso de falha crítica, a criatura também não pode voluntariamente ser alvo de magia inofensiva ou benéfica. O corvofero pode ativar ou desativar esta aura usando uma ação única, que possui o traço concentração."
+    },
+    {
+      "nome": "Ave de Sangue",
+      "acao": "automatica",
+      "traços": ["maldição", "ocultista"],
+      "descricao": "Uma criatura atingida pelo ataque corpo a corpo de um corvofero fica amaldiçoada, sofrendo 2d6 de dano persistente de sangramento, que é difícil de estancar: a CD para parar o sangramento usando Administrar Primeiros Socorros é 35 e curar uma criatura para os PVs totais não encerra o sangramento automaticamente. Remover a maldição encerra o sangramento."
+    },
+    {
+      "nome": "Devorador de Almas",
+      "acao": "automatica",
+      "traços": ["necromancia", "ocultista"],
+      "descricao": "Se o corvofero matar um alvo humanoide com um acerto crítico usando o Golpe de mandíbulas, ele rasga e devora o coração e a alma do alvo como parte do ataque. Enquanto o alvo estiver morto, o corvofero pode Trocar Forma para a forma do alvo, recebendo +4 de bônus de estado em testes de Dissimulação para Personificá-lo. Se magia tentar ressuscitar a criatura, o conjurador deve ser bem-sucedido em um teste de neutralização CD 38 para extrair a alma do alvo do corvofero ou a magia falha."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 36
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "montante",
+        "acao": "one-action",
+        "traços": ["mágico", "versátil P"],
+        "modificador": 36,
+        "dano": "4d12+16",
+        "tipo_dano": "cortante",
+        "efeitos": ["ave de sangue"]
+      },
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["mágico"],
+        "modificador": 36,
+        "dano": "4d8+16",
+        "tipo_dano": "perfurante",
+        "efeitos": ["ave de sangue"]
+      },
+      {
+        "nome": "unha",
+        "acao": "one-action",
+        "traços": ["ágil", "mágico"],
+        "modificador": 36,
+        "dano": "4d8+16",
+        "tipo_dano": "cortante",
+        "efeitos": ["ave de sangue"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "ocultista",
+    "CD": 41,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 8,
+        "magias": ["passeio etéreo", "sugestão"]
+      },
+      {
+        "nivel": 5,
+        "magias": ["desespero esmagador", "maldição do exilado", "modificar memória", "sugestão"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 6,
+        "magias": ["idiomas", "visão verdadeira"]
+      }
+    ],
+    "a_vontade": ["desespero esmagador", "maldição do exilado", "sugestão"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Trocar Forma",
+      "acao": "one-action",
+      "traços": ["concentração", "ocultista", "polimorfia", "transmutação"],
+      "descricao": "O corvofero assume a forma de um lobo ou lobo atroz, um híbrido de lobo e corvo ou a forma de cavaleiro corvo dele: um humanoide Pequeno ou Médio com armadura completa preta carregando uma montante. O corvofero pode usar o ataque de mandíbulas apenas em uma forma que tenha uma cabeça de lobo, o ataque de unha apenas em uma forma que tenha unhas de corvo e a montante apenas na forma de cavaleiro corvo."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Fada sombria arauto com habilidades de maldição e metamorfose",
+    "Aura de Inquietação que causa medo e desconfiança (9m, CD 35 Vontade)",
+    "Devorador de Almas que impede ressurreição e permite personificação (CD 38 neutralização)",
+    "Ave de Sangue com sangramento persistente difícil de estancar (CD 35)",
+    "Magias ocultistas de controle mental incluindo sugestão à vontade (CD 41)",
+    "Trocar Forma para múltiplas formas com diferentes capacidades de ataque",
+    "Voo extremamente rápido (36m) para mobilidade aérea superior",
+    "Intimidação excepcional (+37) e múltiplas perícias sociais avançadas",
+    "Reflexos muito altos (+36) e CA elevada (44)",
+    "Fraqueza significativa a ferro frio (20) característica de fadas sombrias"
+  ]
+},
+  {
+  "nome": "Esporo Mu",
+  "nivel": 21,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "CN",
+    "tamanho": "Imenso",
+    "outros_tracos": ["fungo"]
+  },
+  "percepcao": {
+    "modificador": 36,
+    "sentidos_especiais": ["sentido de vento 72 metros", "visão na penumbra"]
+  },
+  "idiomas": ["Aklo", "Comum", "Subterrâneo", "Terran"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 26
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 41
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 38
+    },
+    {
+      "nome": "Ocultismo",
+      "modificador": 36
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 3,
+    "con": 9,
+    "int": 4,
+    "sab": 9,
+    "car": 9
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 45,
+    "salvamentos": {
+      "fortitude": 38,
+      "reflexos": 32,
+      "vontade": 38
+    },
+    "PV": 350,
+    "habilidades_PV": [
+      {
+        "nome": "regeneração",
+        "valor": 50,
+        "condicao": "desativada por sônico"
+      }
+    ],
+    "imunidades": [],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "ácido",
+        "valor": 20
+      },
+      {
+        "tipo": "todo",
+        "valor": 10,
+        "notas": "exceto sônico"
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Sentido de Vento",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O esporo um sente vibrações no ar através de seus esporos aéreos."
+    },
+    {
+      "nome": "Descomunal",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Um esporo um é uma criatura massiva que ocupa um espaço de 10 quadrados por 10 quadrados (15 metros de lado)."
+    },
+    {
+      "nome": "Esporos",
+      "acao": "aura",
+      "traços": ["aura"],
+      "descricao": "18 metros. Uma criatura viva que entrar ou encerrar o turno dela na área é corrompida por esporos. Ela deve obter sucesso em um salvamento de Fortitude CD 42 ou fica desajeitada 1, enfraquecida 1 e lenta 1 por 1 rodada. Fungos e plantas são imunes."
+    },
+    {
+      "nome": "Mandíbulas Excessivas",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "O esporo mu ainda causa 18 de dano perfurante se obtiver uma falha em um Golpe de mandíbulas (mas não em uma falha crítica)."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Gavinhas Restritoras",
+      "acao": "free-action",
+      "traços": [],
+      "descricao": "Acionamento Uma criatura a até 3 metros do esporo mu se move ou ataca o esporo um. Efeito O esporo usa Atracar na criatura acionadora. Não há limite de quantas criaturas ele pode agarrar com as gavinhas pegajosas que cobrem o corpo dele."
+    },
+    {
+      "nome": "Engolir Rápido",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento O esporo mu Atraca uma criatura. Efeito O esporo mu usa Engolir Inteiro."
+    }
+  ],
+  "velocidade": {
+    "principal": 12,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 15
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 9 metros", "mortal 3d12"],
+        "modificador": 40,
+        "dano": "4d12+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["Atracar Aprimorado"]
+      },
+      {
+        "nome": "tentáculo",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 30 metros"],
+        "modificador": 40,
+        "dano": "4d10+18",
+        "tipo_dano": "contundente",
+        "efeitos": ["Atracar Aprimorado"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Constrição Maior",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "15 contundente, CD 45"
+    },
+    {
+      "nome": "Engolir Inteiro",
+      "acao": "one-action",
+      "traços": ["ataque"],
+      "descricao": "Imenso, 20d6+9 de ácido, Ruptura 37"
+    },
+    {
+      "nome": "Inalação Descomunal",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O esporo mu puxa todas as criaturas e objetos em um cone de 120 metros na direção de sua boca, arrastando-as 120 metros. Um salvamento de Fortitude CD 43 reduz a distância pela metade em um sucesso, ou evita por completo ser puxado em um sucesso crítico. O esporo mu automaticamente tenta Engolir Inteiro contra cada criatura adjacente a ele ao final da inalação."
+    },
+    {
+      "nome": "Tossir Esporos",
+      "acao": "two-actions",
+      "traços": [],
+      "descricao": "O esporo mu libera uma nuvem de esporos escavadores em um cone de 120 metros. Os esporos causam 22d6 de dano perfurante a todas as criaturas, objetos e estruturas de madeira na área, mas não a plantas ou fungos (Reflexos básico CD 46). O esporo mu não pode usar esta habilidade novamente por 1d4 rodadas."
+    }
+  ],
+  "principais_caracteristicas": [
+    "Fungo colossal com tamanho descomunal (15m x 15m) e alcances massivos",
+    "Inalação Descomunal que puxa criaturas em cone de 120m (CD 43 Fortitude)",
+    "Tossir Esporos com dano devastador (22d6 perfurante, CD 46 Reflexos)",
+    "Aura de Esporos que causa múltiplas condições debilitantes (18m, CD 42 Fortitude)",
+    "Regeneração 50 que só é desativada por dano sônico",
+    "Alcances extremos em ataques: 9m (mandíbulas) e 30m (tentáculos)",
+    "Gavinhas Restritoras que agarram automaticamente criaturas próximas",
+    "Resistências múltiplas: ácido 20 e todo dano 10 (exceto sônico)",
+    "Engolir Inteiro com dano massivo de ácido (20d6+9) e Ruptura 37",
+    "Atletismo excepcional (+41) e salvamentos de Fortitude/Vontade muito altos (+38)"
+  ]
+},
+  {
+  "nome": "Batedor da Caçada Selvagem",
+  "nivel": 18,
+  "traços": {
+    "raridade": "raro",
+    "tendencia": "CN",
+    "tamanho": "Médio",
+    "outros_tracos": ["caçada selvagem", "fada"]
+  },
+  "percepcao": {
+    "modificador": 34,
+    "sentidos_especiais": ["visão no escuro maior", "visão verde", "faro (impreciso) 9 metros"]
+  },
+  "idiomas": ["aklo", "comum", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 32
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 32
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 32
+    },
+    {
+      "nome": "Natureza",
+      "modificador": 29
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 37
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 34
+    }
+  ],
+  "atributos": {
+    "for": 9,
+    "des": 6,
+    "con": 6,
+    "int": 5,
+    "sab": 8,
+    "car": 6
+  },
+  "habilidades_interacao": [
+    {
+      "nome": "falar com animais",
+      "descricao": ""
+    },
+    {
+      "nome": "falar com plantas",
+      "descricao": ""
+    }
+  ],
+  "itens": [],
+  "defesas": {
+    "CA": 42,
+    "salvamentos": {
+      "fortitude": 28,
+      "reflexos": 30,
+      "vontade": 34
+    },
+    "PV": 380,
+    "imunidades": [],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 15
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Adaptação Planar",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Ligação da Caçada Selvagem",
+      "acao": "aura",
+      "traços": ["adivinhação", "aura", "mágico"],
+      "descricao": "Como cão da caçada selvagem, mas concede a habilidade de negar vantagem do batedor."
+    },
+    {
+      "nome": "Visão Verde",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Cooperação Instintiva",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Como cão da caçada selvagem."
+    },
+    {
+      "nome": "Olhar Selvagem",
+      "acao": "aura",
+      "traços": ["aura", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem, mas CD 37."
+    },
+    {
+      "nome": "Ataque Furtivo",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Os Golpes de um batedor da caçada selvagem causam 3d6 de dano de precisão adicional a criaturas desprevenidas."
+    },
+    {
+      "nome": "Manifestar Cristais",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Um batedor da caçada selvagem pode manifestar uma cimitarra +2 impactante maior feita de força cristalizada ou um fragmento do tamanho de um punho do mesmo tipo nas mãos. Estes objetos desaparecem quando o batedor da caçada selvagem morre ou assim que os itens não estiverem mais em posse dele."
+    },
+    {
+      "nome": "Negar Vantagem",
+      "acao": "automatica",
+      "traços": [],
+      "descricao": "Um batedor da Caçada Selvagem não fica desprevenido para criaturas do nível dele ou inferior que estejam escondidas, indetectadas, flanqueando ou usando um ataque surpresa. Entretanto ele ainda pode ajudar criaturas aliadas a flanquear."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 12,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "cimitarra de cristal",
+        "acao": "one-action",
+        "traços": ["amplitude", "enérgico", "mágico"],
+        "modificador": 35,
+        "dano": "3d6+17",
+        "tipo_dano": "cortante",
+        "efeitos": ["2d6 de força"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "feixe esmeralda",
+        "acao": "one-action",
+        "traços": ["alcance 12 metros"],
+        "modificador": 34,
+        "dano": "",
+        "tipo_dano": "",
+        "efeitos": ["desorientar"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 40,
+    "modificador_ataque": 32,
+    "magias": [
+      {
+        "nivel": 9,
+        "magias": ["matilha desimpedida", "mísseis mágicos"]
+      },
+      {
+        "nivel": 8,
+        "magias": ["caminhar no ar", "desaparecimento"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["mísseis mágicos", "salto planar"]
+      },
+      {
+        "nivel": 6,
+        "magias": ["conto das rochas"]
+      },
+      {
+        "nivel": 5,
+        "magias": ["mísseis mágicos", "porta dimensional"]
+      }
+    ],
+    "magias_constantes": [
+      {
+        "nivel": 9,
+        "magias": ["falar com animais", "falar com plantas", "passos sem pegadas", "visão verdadeira"]
+      }
+    ],
+    "a_vontade": ["intuir direção"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Desorientar",
+      "acao": "automatica",
+      "traços": ["encantamento", "mental", "primal"],
+      "descricao": "Um batedor da caçada selvagem pode emitir um feixe de luz esmeralda do fragmento de cristal para fazer um Golpe de feixe esmeralda. Se o feixe acertar, ele não causa dano (nem causa dano de precisão de um ataque furtivo), mas deixa a mente do alvo superestimulada, fazendo com que ele fique ofuscado e desprevenido por 1 rodada. Em um acerto crítico, o alvo também fica cego por 1 rodada."
+    },
+    {
+      "nome": "Foco Enérgico",
+      "acao": "three-actions",
+      "traços": ["concentração"],
+      "descricao": "Requerimentos O batedor da caçada selvagem conjurou mísseis mágicos na rodada anterior. Efeito O batedor da caçada selvagem foca no domínio de força que possui, ficando parado enquanto é envolvido por uma pulsante luz esmeralda. Qualquer magias inatas de mísseis mágicos que tiverem conjurado no dia são restauradas, permitindo que sejam conjuradas novamente. Até o final do seu próximo turno, qualquer criatura que sofrer dano de força de um batedor da caçada selvagem deve ser bem-sucedido em um salvamento de Fortitude CD 40 ou fica atordoado 1 (atordoado 4 em uma falha crítica). O batedor da caçada selvagem não pode usar foco enérgico novamente por 1 hora."
+    },
+    {
+      "nome": "Olhar Focado",
+      "acao": "one-action",
+      "traços": ["concentração", "encantamento", "incapacitação", "medo", "mental", "primal", "visual"],
+      "descricao": "Como cão da caçada selvagem"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Batedor élite da Caçada Selvagem especializado em furtividade e magia de força",
+    "Furtividade excepcional (+37) combinada com Negar Vantagem contra flanqueio",
+    "Ataque Furtivo que causa 3d6 dano extra contra desprevenidos",
+    "Foco Enérgico que restaura mísseis mágicos e causa atordoamento (CD 40 Fortitude)",
+    "Desorientar que causa ofuscado e desprevenido sem dano (alcance 12m)",
+    "Manifestar Cristais para criar armas de força cristalizada sob demanda",
+    "Magias primais versáteis incluindo mísseis mágicos em múltiplos níveis (CD 40)",
+    "Vontade muito alta (+34) e CA elevada (42) para defesa robusta",
+    "Múltiplas habilidades sensoriais incluindo visão verdadeira e visão verde",
+    "Comunicação com animais e plantas para rastreamento superior"
+  ]
+},
+  {
+  "nome": "Linnorme do Rochedo",
+  "nivel": 14,
+  "traços": {
+    "raridade": "incomum",
+    "tendencia": "CM",
+    "tamanho": "Imenso",
+    "outros_tracos": ["dragão", "fogo"]
+  },
+  "percepcao": {
+    "modificador": 26,
+    "sentidos_especiais": ["faro (impreciso) 18 metros", "visão no escuro", "visão verdadeira"]
+  },
+  "idiomas": ["Aklo", "Dracônico", "Silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 22
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 28
+    }
+  ],
+  "atributos": {
+    "for": 8,
+    "des": 4,
+    "con": 6,
+    "int": -3,
+    "sab": 4,
+    "char": 5
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 37,
+    "salvamentos": {
+      "fortitude": 28,
+      "reflexos": 24,
+      "vontade": 22
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "magia",
+        "valor": 1
+      }
+    ],
+    "PV": 270,
+    "habilidades_PV": [
+      {
+        "nome": "regeneração",
+        "valor": 10,
+        "condicao": "desativada por ferro frio"
+      }
+    ],
+    "imunidades": ["fogo", "maldição", "paralisado", "sono"],
+    "fraquezas": [
+      {
+        "tipo": "ferro frio",
+        "valor": 10
+      }
+    ],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Maldição de Fogo",
+      "acao": "automatica",
+      "traços": ["fogo", "maldição", "primal"],
+      "descricao": "Quando uma criatura mata um linnorme do rochedo, ela deve obter sucesso em um salvamento de Vontade CD 35 ou adquire permanentemente fraqueza a fogo 15."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Somente cauda."
+    }
+  ],
+  "velocidade": {
+    "principal": 10.5,
+    "outras": [
+      {
+        "tipo": "natação",
+        "valor": 18
+      },
+      {
+        "tipo": "voo",
+        "valor": 30
+      },
+      {
+        "tipo": "liberdade de movimento",
+        "valor": ""
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico"],
+        "modificador": 30,
+        "dano": "3d12+14",
+        "tipo_dano": "perfurante",
+        "efeitos": ["veneno de linnorme do rochedo"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico"],
+        "modificador": 30,
+        "dano": "3d8+14",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "cauda",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico"],
+        "modificador": 30,
+        "dano": "3d6+14",
+        "tipo_dano": "contundente",
+        "efeitos": ["Atracar Aprimorado"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 33,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [
+      {
+        "nivel": 6,
+        "magias": ["liberdade de movimento"]
+      },
+      {
+        "nivel": 5,
+        "magias": ["visão verdadeira"]
+      }
+    ],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Constrição",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "2d6+14 contundente, CD 34"
+    },
+    {
+      "nome": "Sopro",
+      "acao": "two-actions",
+      "traços": ["evocação", "fogo", "primal"],
+      "descricao": "O linnorme do rochedo sopra um feixe de magma em uma linha de 36 metros, que causa 12d6 de dano de fogo a criaturas na área (Reflexos básico CD 34). Qualquer criatura que falhar no salvamento também sofre 4d6 de dano persistente de fogo. O linnorme do rochedo não pode usar Sopro novamente por 1d4 rodadas. O magma permanece até o início do próximo turno do linnorme. Se o linnorme estiver no chão, o magma permanece como uma linha ardente no chão diretamente sob a linha do Sopro; se o linnorme estiver no ar, o magma cai como uma chuva formando uma folha de 18 metros de altura. Qualquer criatura que se mover pelo magma ou através dele sofre 6d6 de dano de fogo (Reflexos básico CD 34). No começo do próximo turno do linnorme, o magma resfria como uma fina camada de pedra quebradiça no chão, ou a chuva de magma para de cair e se transforma em seixos inofensivos. O magma resfriado degrada rapidamente em pó e areia ao longo das próximas horas."
+    },
+    {
+      "nome": "Veneno de Linnorme do Rochedo",
+      "acao": "automatica",
+      "traços": ["ferimento", "fogo", "veneno"],
+      "descricao": "Salvamento Fortitude CD 34; Duração Máxima 10 rodadas; Estágio 1 4d6 de dano de fogo e drenado 1; Estágio 2 6d6 de dano de fogo e drenado 2"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Dragão elemental de fogo com maldição mortal e controle de magma",
+    "Maldição de Fogo que concede fraqueza permanente a fogo 15 ao matá-lo (CD 35 Vontade)",
+    "Sopro de magma que cria terreno perigoso e causa dano persistente (12d6 fogo, CD 34)",
+    "Veneno único que combina dano de fogo com condição drenado (CD 34 Fortitude)",
+    "Alcance estendido de 6m em todos os ataques corpo a corpo",
+    "Voo muito rápido (30m) combinado com natação superior (18m)",
+    "Regeneração 10 que só é desativada por ferro frio",
+    "Liberdade de movimento constante para imunidade a efeitos de imobilização",
+    "Múltiplas imunidades incluindo fogo, maldições e efeitos de paralisia",
+    "Modificadores de ataque altos (+30) e Fortitude robusta (+28)"
+  ]
+},
+  {
+  "nome": "Lerritan Elite",
+  "nivel": 21,
+  "traços": {
+    "raridade": "comum",
+    "tendencia": "NM",
+    "tamanho": "Imenso",
+    "outros_tracos": ["elemental", "fogo", "terra"]
+  },
+  "percepcao": {
+    "modificador": 37,
+    "sentidos_especiais": ["visão na penumbra"]
+  },
+  "idiomas": ["Comum", "Ignan", "Jotun", "Terran"],
+  "pericias": [
+    {
+      "nome": "Atletismo",
+      "modificador": 43
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 36
+    },
+    {
+      "nome": "Manufatura",
+      "modificador": 35
+    },
+    {
+      "nome": "Religião",
+      "modificador": 38
+    },
+    {
+      "nome": "Sobrevivência",
+      "modificador": 40
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 5,
+    "con": 7,
+    "int": 2,
+    "sab": 7,
+    "car": 4
+  },
+  "habilidades_interacao": [],
+  "itens": [
+    {
+      "nome": "martelo de guerra +3 impactante maior"
+    }
+  ],
+  "defesas": {
+    "CA": 48,
+    "salvamentos": {
+      "fortitude": 40,
+      "reflexos": 36,
+      "vontade": 38
+    },
+    "PV": 520,
+    "imunidades": ["fogo", "paralisado", "sono", "veneno"],
+    "fraquezas": [
+      {
+        "tipo": "frio",
+        "valor": 20
+      }
+    ],
+    "resistências": [
+      {
+        "tipo": "cortante",
+        "valor": 20
+      },
+      {
+        "tipo": "perfurante",
+        "valor": 20
+      }
+    ]
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Chamas Tenazes",
+      "acao": "aura",
+      "traços": ["aura", "evocação", "fogo", "primal"],
+      "descricao": "30 metros. Criaturas na emanação não podem se recuperar de dano persistente de fogo."
+    }
+  ],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    }
+  ],
+  "velocidade": {
+    "principal": 15,
+    "outras": []
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "martelo de guerra",
+        "acao": "one-action",
+        "traços": ["alcance 7,5 metros", "empurrar", "mágico"],
+        "modificador": 42,
+        "dano": "4d12+20",
+        "tipo_dano": "contundente",
+        "efeitos": ["2d6 persistente de fogo"]
+      },
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 7,5 metros"],
+        "modificador": 41,
+        "dano": "4d10+20",
+        "tipo_dano": "perfurante",
+        "efeitos": ["2d6 persistente de fogo"]
+      }
+    ],
+    "distancia": [
+      {
+        "nome": "rocha",
+        "acao": "one-action",
+        "traços": ["brutal", "alcance 36 metros"],
+        "modificador": 41,
+        "dano": "4d6+20",
+        "tipo_dano": "contundente",
+        "efeitos": ["2d6 persistente de fogo"]
+      }
+    ]
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "primal",
+    "CD": 46,
+    "modificador_ataque": 0,
+    "magias": [
+      {
+        "nivel": 10,
+        "magias": ["cataclisma"]
+      },
+      {
+        "nivel": 9,
+        "magias": ["chuva de meteoro", "bola de fogo"]
+      },
+      {
+        "nivel": 8,
+        "magias": ["terremoto"]
+      },
+      {
+        "nivel": 7,
+        "magias": ["salto planar (somente Plano Material, Plano do Fogo ou Plano da Terra)"]
+      }
+    ],
+    "magias_constantes": [],
+    "a_vontade": ["produzir chama"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Arremessar Rocha",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "Um lerritan pode quebrar escamas de pedra de seu corpo para arremessar; essas escamas se reformam no fim de cada rodada, então o lerritan nunca fica sem um suprimento de rochas para arremessar."
+    },
+    {
+      "nome": "Erupção Vulcânica",
+      "acao": "two-actions",
+      "traços": ["evocação", "fogo", "primal", "terra"],
+      "descricao": "O vulcão nas costas do lerritan entra em erupção e envia bombas de lava que chovem em uma emanação de 9 metros, causando 12d12+4 de dano de fogo. Cada criatura na área deve tentar um salvamento de Reflexos CD 46. Os glóbulos de lava esfriam rapidamente em pedras pesadas, transformando a área em terreno difícil maior para não-lerritans. O lerritan não pode usar Erupção Vulcânica por 1d4 rodadas. Sucesso Crítico A criatura não é afetada. Sucesso A criatura sofre metade do dano e fica sobrecarregada por 1 rodada. Falha A criatura sofre o dano inteiro e fica imobilizada (Escapar CD 48). Falha Crítica A criatura sofre o dobro do dano e fica envolta por uma crosta de rocha com lava no interior. A criatura fica restringida (Escapar CD 48), não pode respirar, sofre 3d12+4 de dano persistente de fogo e não pode se recuperar desse dano persistente de fogo até que seja libertada"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Elemental vulcânico de nível mítico com poderes cataclísmicos",
+    "Erupção Vulcânica com dano massivo (12d12+4 fogo) e efeitos de aprisionamento (CD 46)",
+    "Magias primais de 10º nível incluindo cataclisma (CD 46)",
+    "Aura de Chamas Tenazes que impede recuperação de dano persistente de fogo (30m)",
+    "Alcances extremos em ataques: 7.5m corpo a corpo e 36m à distância",
+    "Atletismo excepcional (+43) e PV muito altos (520) para nível 21",
+    "Resistências duplas a cortante e perfurante (20) com imunidade a fogo",
+    "Todos os ataques causam dano persistente de fogo (2d6)",
+    "Fortitude e Vontade muito altas (+40 e +38) para resistência robusta",
+    "Vulnerabilidade tática a frio (20) que pode ser explorada"
+  ]
+},
+  {
+  "nome": "Ilthuliak",
+  "nivel": 21,
+  "traços": {
+    "raridade": "único",
+    "tendencia": "CE",
+    "tamanho": "Imenso",
+    "outros_tracos": ["ácido", "anfíbio", "dragão"]
+  },
+  "percepcao": {
+    "modificador": 37,
+    "sentidos_especiais": ["faro (impreciso) 18 metros", "visão no escuro"]
+  },
+  "idiomas": ["aklo", "comum", "dracônico", "Goblin", "jotúnico", "Órquico", "silvestre"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 35
+    },
+    {
+      "nome": "Arcanismo",
+      "modificador": 36
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 41
+    },
+    {
+      "nome": "Dissimulação",
+      "modificador": 40
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 35
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 40
+    },
+    {
+      "nome": "Saber (Primeiro Mundo)",
+      "modificador": 38
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 6,
+    "con": 7,
+    "int": 7,
+    "sab": 6,
+    "car": 6
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 47,
+    "salvamentos": {
+      "fortitude": 38,
+      "reflexos": 35,
+      "vontade": 35
+    },
+    "bonus_salvamentos": [
+      {
+        "tipo": "magia",
+        "valor": 1
+      },
+      {
+        "tipo": "mental",
+        "valor": 4
+      }
+    ],
+    "PV": 450,
+    "imunidades": ["ácido", "paralisado", "sono"],
+    "fraquezas": [],
+    "resistências": []
+  },
+  "habilidades_automaticas": [
+    {
+      "nome": "Presença Aterradora",
+      "acao": "aura",
+      "traços": ["aura", "emoção", "medo", "mental"],
+      "descricao": "27 metros, CD 41"
+    },
+    {
+      "nome": "Açoitada com Cauda",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Como dragão negro jovem."
+    }
+  ],
+  "habilidades_reativas": [],
+  "velocidade": {
+    "principal": 21,
+    "outras": [
+      {
+        "tipo": "natação",
+        "valor": 21
+      },
+      {
+        "tipo": "voo",
+        "valor": 45
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "mandíbulas",
+        "acao": "one-action",
+        "traços": ["ácido", "alcance 6 metros", "mágico"],
+        "modificador": 39,
+        "dano": "4d12+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["2d6 de ácido", "2d6 persistente de ácido"]
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 4,5 metros", "mágico"],
+        "modificador": 39,
+        "dano": "4d8+18",
+        "tipo_dano": "cortante",
+        "efeitos": []
+      },
+      {
+        "nome": "cauda",
+        "acao": "one-action",
+        "traços": ["alcance 7,5 metros", "mágico"],
+        "modificador": 37,
+        "dano": "4d6+16",
+        "tipo_dano": "contundente",
+        "efeitos": []
+      },
+      {
+        "nome": "chifres",
+        "acao": "one-action",
+        "traços": ["alcance 6 metros", "mágico"],
+        "modificador": 37,
+        "dano": "3d6+16",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "arcano",
+    "tipo": "preparada",
+    "CD": 44,
+    "modificador_ataque": 36,
+    "por_nivel": {
+      "truques": ["arco elétrico", "escudo místico", "ler aura", "luzes dançantes", "prestidigitação"],
+      "1º": ["comando", "golpe certo", "raio de enfraquecimento"],
+      "2º": ["imagem espelhada", "manobra telecinética", "poeira reluzente"],
+      "3º": ["cegueira", "lentidão", "nuvem fétida"],
+      "4º": ["clarividência", "esfera resiliente", "sugestão"],
+      "5º": ["olho bisbilhoteiro", "porta dimensional", "tentáculos negros"],
+      "6º": ["dominar", "muralha de força", "visão verdadeira"],
+      "7º": ["dedo da morte", "refletir magia", "reverter gravidade"],
+      "8º": ["desaparecimento", "limpar a mente (já conjurada)", "ressecamento horrível"],
+      "9º": ["disjunção", "fatídico", "implosão"],
+      "10º": ["para o tempo"]
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "arcano",
+    "CD": 44,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": ["escuridão"]
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Corromper Água",
+      "acao": "one-action",
+      "traços": ["arcano", "concentração", "necromancia"],
+      "descricao": "Como dragão negro, mas CD 41."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "two-actions",
+      "traços": ["ácido", "arcano", "evocação"],
+      "descricao": "Ilthuliak sopra um jorro de ácido que causa 22d6 de dano de ácido em uma linha de 30 metros (Reflexos básicos CD 44). Ela não pode usar Sopro novamente por 1d4 rodadas."
+    }
+  ],
+  "tesouro": [
+    "57.000 pc, 4.800 pp, 1.900 po, 120 pl",
+    "Cetro de prata com tiras de azeviche e marfim (250 po)",
+    "Caixa de joias de madeira negra (100 po) com bijuterias",
+    "Colar de gemas preciosas (1.200 po)",
+    "Pedaço de âmbar com mosquito (900 po, valor real 5 po se descoberto)",
+    "Pedras preciosas e bugigangas (1.000 po)",
+    "Facão-estrela +2 impactante maior retornante chocante",
+    "Braçadeiras da armadura tipo II",
+    "Batina da devoção",
+    "Manto do morcego",
+    "Turíbulo da revelação",
+    "Bastão de anulação",
+    "Tiara da persuasão"
+  ],
+  "principais_caracteristicas": [
+    "Dragão negro ancião único com magia arcana de 10º nível",
+    "Magias preparadas até 10º nível incluindo para o tempo (CD 44)",
+    "Sopro de ácido com dano massivo (22d6 ácido, CD 44 Reflexos)",
+    "Presença Aterradora com aura ampla (27m, CD 41 Vontade)",
+    "Múltiplos ataques com alcances estendidos (4.5m-7.5m)",
+    "Bônus significativo contra efeitos mentais (+4 salvamentos)",
+    "Mobilidade excepcional: voo 45m, natação 21m, terrestre 21m",
+    "Perícias sociais avançadas (Dissimulação +40, Intimidação +40)",
+    "Tesouro extenso com itens mágicos poderosos e riquezas",
+    "Poliglota fluente em 7 idiomas incluindo aklo e dracônico"
+  ]
+},
+  {
+  "nome": "Minognos-Ushad",
+  "nivel": 19,
+  "traços": {
+    "raridade": "único",
+    "tendencia": "NM",
+    "tamanho": "Enorme",
+    "outros_tracos": ["dragão"]
+  },
+  "percepcao": {
+    "modificador": 30,
+    "sentidos_especiais": ["faro (impreciso) 9 metros", "visão no escuro"]
+  },
+  "idiomas": ["comum", "dracônico"],
+  "pericias": [
+    {
+      "nome": "Acrobatismo",
+      "modificador": 33
+    },
+    {
+      "nome": "Atletismo",
+      "modificador": 37
+    },
+    {
+      "nome": "Furtividade",
+      "modificador": 33
+    },
+    {
+      "nome": "Intimidação",
+      "modificador": 31
+    }
+  ],
+  "atributos": {
+    "for": 10,
+    "des": 6,
+    "con": 6,
+    "int": 0,
+    "sab": 6,
+    "car": 4
+  },
+  "habilidades_interacao": [],
+  "itens": [],
+  "defesas": {
+    "CA": 43,
+    "salvamentos": {
+      "fortitude": 33,
+      "reflexos": 35,
+      "vontade": 31
+    },
+    "PV": 295,
+    "imunidades": ["inconsciente", "paralisado"],
+    "fraquezas": [],
+    "resistências": [
+      {
+        "tipo": "veneno",
+        "valor": 20
+      }
+    ]
+  },
+  "habilidades_automaticas": [],
+  "habilidades_reativas": [
+    {
+      "nome": "Ataque de Oportunidade",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": ""
+    },
+    {
+      "nome": "Ferrar",
+      "acao": "reaction",
+      "traços": [],
+      "descricao": "Acionamento Uma criatura agarrada por Minognos-Ushad falha criticamente em um teste para Escapar; Efeito Minognos-Ushad Golpeia com o ferrão contra a criatura acionadora."
+    }
+  ],
+  "velocidade": {
+    "principal": 9,
+    "outras": [
+      {
+        "tipo": "voo",
+        "valor": 30
+      }
+    ]
+  },
+  "ataques": {
+    "corpo_a_corpo": [
+      {
+        "nome": "presas",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 37,
+        "dano": "4d10+18",
+        "tipo_dano": "perfurante",
+        "efeitos": []
+      },
+      {
+        "nome": "garra",
+        "acao": "one-action",
+        "traços": ["alcance 3 metros"],
+        "modificador": 37,
+        "dano": "4d8+18",
+        "tipo_dano": "cortante",
+        "efeitos": ["Atracar Aprimorado"]
+      },
+      {
+        "nome": "ferrão",
+        "acao": "one-action",
+        "traços": ["ágil", "alcance 6 metros"],
+        "modificador": 37,
+        "dano": "4d6+18",
+        "tipo_dano": "perfurante",
+        "efeitos": ["veneno de wyvern"]
+      }
+    ],
+    "distancia": []
+  },
+  "magias": {
+    "tradicao": "",
+    "tipo": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "por_nivel": {
+      "truques": [],
+      "1º": [],
+      "2º": [],
+      "3º": [],
+      "4º": [],
+      "5º": [],
+      "6º": [],
+      "7º": [],
+      "8º": [],
+      "9º": [],
+      "10º": []
+    },
+    "magias_constantes": []
+  },
+  "magias_inatas": {
+    "tradicao": "",
+    "CD": 0,
+    "modificador_ataque": 0,
+    "magias": [],
+    "magias_constantes": [],
+    "a_vontade": []
+  },
+  "magias_foco": {
+    "pontos_foco": 0,
+    "CD": 0,
+    "magias": []
+  },
+  "rituais": [],
+  "habilidades_ofensivas": [
+    {
+      "nome": "Impulso Punitivo",
+      "acao": "one-action",
+      "traços": [],
+      "descricao": "Requerimentos Minognos-Ushad agarrou uma criatura neste turno usando Mergulho Poderoso. Efeito Minognos-Ushad pode Voar à metade da Velocidade enquanto segurar a criatura nas garras, carregando-a e largando-a ao final do movimento realizado. Alternativamente, ela pode Golpear a criatura usando o ferrão com +2 de bônus de circunstância."
+    },
+    {
+      "nome": "Mergulho Poderoso",
+      "acao": "two-actions",
+      "traços": ["movimento"],
+      "descricao": "Minognos-Ushad Voa até a Velocidade de voo e deve se mover pelo menos 6 metros para frente e pelo menos 3 metros para baixo. Se encerrar o movimento com pelo menos um inimigo do tamanho dela ou menor em seu alcance corpo a corpo, ela pode realizar um Golpe de garra contra esse inimigo. Se a garra acertar, como uma ação livre ela pode automaticamente Atracar o alvo ou deixá-lo prostrado."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "two-actions",
+      "traços": ["evocação", "primal", "veneno"],
+      "descricao": "Minognos-Ushad sopra um cone de 18 metros de veneno. Criaturas no cone sofrem 20d6 de dano de veneno (Reflexos básicos CD 41). Minognos-Ushad não pode usar Sopro novamente por 1d4 rodadas."
+    },
+    {
+      "nome": "Veneno de Wyvern",
+      "acao": "automatica",
+      "traços": ["veneno"],
+      "descricao": "Salvamento Fortitude CD 41; Duração máxima 6 rodadas; Estágio 1 5d10 de dano de veneno e desajeitado (1 rodada); Estágio 2 6d10 de dano de veneno e desajeitado 2 (1 rodada); Estágio 3 8d10 de dano de veneno e desajeitado 3 (1 rodada)"
+    }
+  ],
+  "principais_caracteristicas": [
+    "Wyvern dragão única com táticas aéreas especializadas e veneno letal",
+    "Mergulho Poderoso que combina movimento aéreo com ataque e agarramento",
+    "Sopro de veneno com dano massivo (20d6 veneno, CD 41 Reflexos)",
+    "Veneno extremamente letal que causa até 8d10 dano e desajeitado 3 (CD 41 Fortitude)",
+    "Impulso Punitivo para transporte aéreo de criaturas agarradas",
+    "Reação Ferrar que pune tentativas de escape falhas",
+    "Voo rápido (30m) para superioridade aérea",
+    "Resistência significativa a veneno (20)",
+    "Alcance estendido de 6m no ferrão para ataques à distância segura",
+    "Atletismo excepcional (+37) e modificadores de ataque altos (+37)"
+  ]
 }
 ]

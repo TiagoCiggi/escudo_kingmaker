@@ -54,29 +54,16 @@ def buscar_encontro(zn):
     encontro = busca_encontro(zn)
     return encontro
 
-# recebe criatura e quantidade e confere se tem obs e retorna qual criatura, quantidade e obs
-def confere_obs(criatura, quantidade):
-    dados = encontro.get(criatura)
-    if dados:
-        obs = dados.get("obs", "")
-        qtd = dados.get("qtd", [quantidade])
-        inimigos = dados.get("inimigo", [criatura])
-        return inimigos, qtd, obs
-    else:
-        return [criatura], [quantidade], ""
-
-
 # função final
 # recebe a zona
 def teste(zn):
     cd = busca_cd_encontro(zn)
     if jogada_encontros(cd) in {ResultadoTeste.SUCESSO, ResultadoTeste.SUCESSO_DECISIVO}:
-        quantidade, criatura = buscar_encontro(zn)
-        inimigos, quantidades, obs = confere_obs(criatura, quantidade)
+        quantidade, criatura, obs = buscar_encontro(zn)
         resultado = f"📍 Encontro em {zn}:\n"
         if obs:
             resultado += f"📘 {obs}\n"
-        for qtd, nome in zip(quantidades, inimigos):
+        for qtd, nome in zip(quantidade, criatura):
             resultado += f"- {qtd}x {nome}\n"
         return resultado
     else:
