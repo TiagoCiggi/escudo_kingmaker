@@ -62,7 +62,7 @@ class Evento:
                 f"\nAgravamento: {self.agravamento})")
 
 def carregar_eventos_json(caminho="eventos_climaticos.json") -> list[Evento]:
-    with open("json/eventos_climaticos.json", encoding="utf-8") as f:
+    with open("eventos_climaticos.json", encoding="utf-8") as f:
         dados = json.load(f)
     return [Evento(e) for e in dados]
 

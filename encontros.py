@@ -2,10 +2,10 @@ from jogadas import rolar_d20, d20, ResultadoTeste
 from random import randint
 import json
 
-with open('json/zona_encontros.json', 'r', encoding='utf-8') as arquivo:
+with open('zona_encontros.json', 'r', encoding='utf-8') as arquivo:
     zonas = json.load(arquivo)
 
-with open("json/lista_monstros.json", "r", encoding="utf-8") as arquivo:
+with open("lista_monstros.json", "r", encoding="utf-8") as arquivo:
     lista_monstros = json.load(arquivo)
 
 nomes_zonas = [zona["nome"] for zona in zonas]
