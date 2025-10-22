@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0] - 2025-10-21
+
+### ✨ Adicionado
+- Função `def definir_monstro(nome)` para buscar o inimigo no JSON.
+- Função `encontro_final(encontro)` que vai definir quais, quantos e se tem observações nos inimigos.
+- Função `formatar_monstro(qtd, monstro)` formata o monstro com base nas informações do JSON.
+- Função `simular_encontro()` foi reajustado para mostrar o formato do monstro
+
+### 🛠️ Corrigido
+- Algumas funções foram atualizadas e tiveram seus nomes melhor definidos
+- Os módulos que não tinham mais serventias foram deletados
+
+
 ## [1.1.0] - 2025-10-20
 
 ### ✨ Adicionado

@@ -7,7 +7,6 @@ Projeto em Python para simular encontros e eventos climáticos em um mundo de fa
 - Geração de encontros aleatórios
 - Simulação de clima e eventos climáticos
 - Interface interativa via terminal
-- Registro de jogadas e histórico
 
 ## 🧱 Estrutura de Arquivos
 
@@ -18,7 +17,7 @@ Projeto em Python para simular encontros e eventos climáticos em um mundo de fa
 - `main.py` — ponto de entrada do programa
 - `eventos_climaticos.json` — efeitos e consequências
 - `zona_encontros.json` — zonas e encontros
-- `encontro.json` - lista com observações de encontros
+- `lista_monstros.json` - lista com informações dos encontros
 
 ## 🛠️ Instalação
 
